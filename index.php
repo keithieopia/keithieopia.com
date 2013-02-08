@@ -16,7 +16,8 @@
 		die('404 Not Found');
 	}
 	
-
+	$c['runtime'] = round(((microtime(TRUE) - $c['runtime']) * 1000), 3);
+    $c['peakram'] = humanFilesize(memory_get_peak_usage(TRUE));
 
 	$c['template'] = file_get_contents('html/default.html');
 	echo parseVars($c['template'], $c);

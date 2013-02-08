@@ -44,4 +44,24 @@ function gitVersion(){
 	return $version;
 }
 
+function humanFilesize($size) {
+/** 
+ * humanFilesize()
+ * 	   AUTHOR:  vdbuilder <http://www.vdstudios.net/>
+ * 	   URL:     http://stackoverflow.com/questions/5501427/php-filesize-
+ * 					   mb-kb-conversion 
+ * 	   LICENSE: Creative Commons [CC BY-SA 3.0]
+ * 	   DESC:    Converts a filesize in bytes into readable form with the 
+ * 				correct units of size.
+ */
+ 
+    $units = explode(' ', 'B KB MB GB TB PB');
+    for ($i = 0; $size > 1024; $i++) {
+        $size /= 1024;
+    }
+ 
+    return round($size, 2) . ' ' . $units[$i];
+}
+
+
 ?>

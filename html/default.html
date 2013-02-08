@@ -9,11 +9,18 @@
         <link rel="stylesheet" href="css/normalize.css">
     </head>
     <body>
+		<header>
+			<h1>{{ title }}</h1>
+			<h2>{{ tagline }}</h2>	
+		</header>
 		
         {{ content }}
 
 		<footer>
-			<small>{{ version }}</small>
+			<small>
+				Powered by <a href="https://github.com/keithieopia/txtbuch">txtbüch</a> {{ version }}<br>
+				Took {{ runtime }}&micro;s with {{ peakram }} of RAM
+			</small>
 		</footer>
 
         <script src="js/main.js"></script>
