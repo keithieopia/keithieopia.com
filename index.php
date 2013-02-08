@@ -1,7 +1,8 @@
 <?php
-	include 'inc/config.php';
 	include 'inc/markdown.php';
 	include 'inc/functions.php';
+	include 'inc/config.php';
+
 
 	if (!isset($_GET['p'])) $_GET['p'] = 'index';
 
