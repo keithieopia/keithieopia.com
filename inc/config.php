@@ -12,6 +12,7 @@
 	
 	// --- [ DO NOT EDIT BELOW] ----------------------------------------
 	$c['version']     = gitVersion();
+    $c['year']        = date('Y');
 	$c['runtime']     = microtime(TRUE); 
 	
 	

@@ -9,19 +9,33 @@
         <link rel="stylesheet" href="css/normalize.css">
     </head>
     <body>
-		<header>
-			<h1>{{ title }}</h1>
-			<h2>{{ tagline }}</h2>	
-		</header>
+        
+        <div id="container">
+            <header>
+                <h1><a href="./?p=index">{{ title }}</a></h1>
+            </header>
 		
-        {{ content }}
+            <div id="content">
+            {{ content }}
+            </div>
 
-		<footer>
-			<small>
-				Powered by <a href="https://github.com/keithieopia/txtbuch">txtbüch</a> {{ version }}<br>
-				Took {{ runtime }}&micro;s with {{ peakram }} of RAM
-			</small>
-		</footer>
+            <footer>
+            
+                <span id="footer-right">
+                    Powered by <a href="https://github.com/keithieopia/txtbuch">txtbüch</a> {{ version }}<br>
+                    Took {{ runtime }}&micro;s with {{ peakram }} of RAM
+                </span>
+                
+                <span id="footer-left">
+                    Copyright &copy; 2006-{{ YEAR }} by <a href="mailto:timothy@keithieopia.com">Keithieopia</a>. &raquo; <a href="./?p=_credits">Credits</a><br>
+                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+                </span>
+                
+
+            
+            </footer>
+
+        </div>
 
         <script src="js/main.js"></script>
         

@@ -6,7 +6,7 @@
 
 	if (!isset($_GET['p'])) $_GET['p'] = 'index';
 
-	$file = 'text/'. $_GET['p'] .'.text';
+	$file = 'text/'. $_GET['p'] .'.md';
 			
 	if(file_exists($file)){
 		$c['content'] = Markdown(file_get_contents($file));
