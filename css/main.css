@@ -10,10 +10,10 @@ body {
     width: 800px;
 }
 
-header h1 a {
-    color: #b9d894;
+header h1 a, header h1 a:hover {
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
-
 
 #content h1 {
     color: #333333;
