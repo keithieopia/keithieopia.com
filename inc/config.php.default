@@ -7,7 +7,7 @@
 	
 
 	$c['title']       = 'txtbuch';
-	$c['description'] = 'A simple PHP CMS.';
+	$c['description'] = 'A simple PHP CMS';
 	
 	
 	// --- [ DO NOT EDIT BELOW] ----------------------------------------
