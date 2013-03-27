@@ -1,5 +1,8 @@
 # Ignore custom content
 text/*
+inc/config.php
+
+# ... However don't ignore the credits
 !credits.md
 
 # Ignore uploads for custom content
