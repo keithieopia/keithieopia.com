@@ -1,0 +1,9 @@
+# Ignore custom content
+text/*
+!credits.md
+
+# Ignore uploads for custom content
+uploads/*
+
+# Ignore custom favicon
+favicon.ico
