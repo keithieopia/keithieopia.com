@@ -1,8 +1,8 @@
 <?php
 
-	$c['title']       = 'txtbuch';
-	$c['description'] = 'A simple PHP CMS';
-	$c['latitude']    = 000.00000;
+    $c['title']       = 'txtbuch';
+    $c['description'] = 'A simple PHP CMS';
+    $c['latitude']    = 000.00000;
     $c['longitude']   = 000.00000;	
 	
 ?>
