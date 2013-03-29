@@ -17,7 +17,14 @@
 	// Directory Traversal Security
 	foreach ($_GET as $get){
 		if ($get != NULL && !preg_match('/^[0-9a-zA-Z_.-]+$/', $get)) {
-			die('Where you trying to do something naughty?');
+            
+            header('HTTP/1.0 403 Forbidden');
+			die('<h1>Forbidden</h1>
+                 <p>
+                    You have angered the web server. Pray you do not anger 
+                    it further.
+                 </p>
+                ');
 		}
 	}	
 
