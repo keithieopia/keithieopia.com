@@ -56,3 +56,25 @@ footer {
     text-align: right;
     float: right;
 }
+
+.error {
+    border: 1px solid #FF0000;
+    
+    background-color: #E86958;
+    background-image: url('../img/icons/error.png'); 
+    background-position: 2px 2px;
+	background-repeat: no-repeat;
+
+    font-weight: bold;
+    
+    margin: 0px 0px 20px 0px;
+    padding: 2px 20px 4px 30px;
+}
+
+input {
+    border: 1px solid #333333;
+    background-color: #000000;
+    color: #CCCCCC;
+    padding: 2px 5px;
+    margin: 10px;
+}

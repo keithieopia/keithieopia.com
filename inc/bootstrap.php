@@ -5,10 +5,13 @@
 	ini_set('display_errors', '1');
 	// -----------------------------------------------------------------
 	
+    session_start();
+    
     include 'inc/markdown.php';
 	include 'inc/functions.php';
     include 'inc/config.php';
     
+    $c['error']       = '';
 	$c['version']     = gitVersion();
     $c['year']        = date('Y');
 	$c['runtime']     = microtime(TRUE); 
