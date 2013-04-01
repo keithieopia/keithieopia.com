@@ -7,11 +7,48 @@
 
     switch ($_GET['p']){
         
+        case 'newpost':
+            if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == TRUE){
+                
+                if (isset($_POST['filename']) && isset($_POST['content'])){
+
+                    $file = './text/'. $_POST['filename'] .'.md';
+                    
+                    if (file_exists($file)) {
+                        $_SESSION['error'] = 'Sorry, that filename already exists.';
+                        header('Location: ./?p=admin');
+                        die();                        
+                    }
+                    
+
+                    $f = fopen($file, "w");
+                    fwrite($f, $_POST['content']);
+                    fclose($f);
+                    
+                    $_SESSION['success'] = 'Post added successfully.';
+                    header('Location: ./?p=admin');
+                    die();
+                }
+                else {
+                    $_SESSION['error'] = 'You must fill out all the fields.';
+                    header('Location: ./?p=admin');
+                    die();                    
+                }
+            }
+            else {
+                $_SESSION['error'] = 'You must be logged in to see that page.';                
+                header('Location: ./?p=login');
+                die();
+            }
+
+            break;
+        
         case 'admin':
             if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == TRUE){
                 $c['content'] = file_get_contents('html/newpost.html');
             }
             else {
+                $_SESSION['error'] = 'You must be logged in to see that page.';
                 header('Location: ./?p=login');
                 die();
             }
@@ -31,7 +68,7 @@
             session_start();
             session_regenerate_id(true); 
     
-            $_SESSION['error'] = 'You have successfully logged out!';
+            $_SESSION['success'] = 'You have successfully logged out!';
             header('Location: ./?p=login');
             die(); 
                             
@@ -83,11 +120,16 @@
     }
     
     
-    // Error handling
+    // Message handling
     if (isset($_SESSION['error'])){
-        $c['error'] = '<div class="error">'. $_SESSION['error'] .'</div>';
+        $c['message'] = '<div class="error">'. $_SESSION['error'] .'</div>';
         unset($_SESSION['error']);
     }
+    if (isset($_SESSION['success'])){
+        $c['message'] = '<div class="success">'. $_SESSION['success'] .'</div>';
+        unset($_SESSION['success']);
+    }
+    
     
     
 	$c['runtime'] = round(((microtime(TRUE) - $c['runtime']) * 1000), 3);

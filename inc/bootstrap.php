@@ -11,7 +11,7 @@
 	include 'inc/functions.php';
     include 'inc/config.php';
     
-    $c['error']       = '';
+    $c['message']     = '';
 	$c['version']     = gitVersion();
     $c['year']        = date('Y');
 	$c['runtime']     = microtime(TRUE); 

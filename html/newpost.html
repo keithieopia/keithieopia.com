@@ -1,0 +1,23 @@
+<h1>Admin Panel</h1>
+
+
+<h2>Add a Post</h2>
+
+{{ message }}
+
+<form id='login' action='./?p=newpost' method='post' accept-charset='UTF-8'>
+
+<table>
+    <tr>
+        <td><label for='filename'>Filename:</label></td>
+        <td><input type='text' name='filename' id='filename' maxlength="50"></td>
+    </tr><tr>
+        <td><label for='content' >Content:</label></td>
+        <td><textarea rows="10" cols="80" name="content" id="content"></textarea></td>
+    </tr><tr>
+        <td></td>
+        <td><input type='submit' name='Submit' value='Submit'></td>
+    </tr>
+</table>
+
+</form>

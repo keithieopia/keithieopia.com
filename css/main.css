@@ -65,13 +65,30 @@ footer {
     background-position: 2px 2px;
 	background-repeat: no-repeat;
 
+    color: #000000;
     font-weight: bold;
     
     margin: 0px 0px 20px 0px;
     padding: 2px 20px 4px 30px;
 }
 
-input {
+.success {
+    border: 1px solid #00FF00;
+    
+    background-color: #71C666;
+    background-image: url('../img/icons/success.png'); 
+    background-position: 2px 2px;
+	background-repeat: no-repeat;
+
+    color: #000000;
+    font-weight: bold;
+    
+    margin: 0px 0px 20px 0px;
+    padding: 2px 20px 4px 30px;
+}
+
+
+input, textarea {
     border: 1px solid #333333;
     background-color: #000000;
     color: #CCCCCC;
