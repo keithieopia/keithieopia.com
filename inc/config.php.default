@@ -1,8 +1,15 @@
 <?php
 
+    // General Settings
     $c['title']       = 'txtbuch';
     $c['description'] = 'A simple PHP CMS';
-    $c['latitude']    = 000.00000;
-    $c['longitude']   = 000.00000;	
-	
+    
+    // Location of the website for GeoURL <http://geourl.org/>
+    $c['latitude']    = 000.00000;                                      /* The latitude of the location */
+    $c['longitude']   = 000.00000;	                                    /* The longitude of the location */
+    
+    // Username & Password
+    $c['username']    = 'admin';                                        /* The admin's username */
+    $c['password']    = '';                                             /* A MD5 encoded password */
+ 	
 ?>
