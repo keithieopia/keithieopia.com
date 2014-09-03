@@ -1,0 +1,21 @@
+.tooltip {
+    position: relative;
+    cursor: help;
+}
+.tooltip-text {
+    display: none;
+
+    position: absolute;
+    top: -3em;
+    left: -5em;
+    padding: 10px 25px;
+
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    
+    font-size: 1em;
+    color: #222;
+    
+    background: rgba(255, 255, 255, 0.5)
+                url('content/themes/default/img/icons/information.png') no-repeat 5px 50%;
+}
