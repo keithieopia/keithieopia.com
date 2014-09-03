@@ -22,9 +22,7 @@ respective owners, whom should be contacted if you wish to use their work.
 Others that have made this site possible:
 * The jQuery Foundation - [jQuery](http://jquery.com/) *(MIT License)*
 * The Modernizr Team - [Modernizr](http://modernizr.com/) *(MIT License)*
-* Lokesh Dhakar - [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/) *(Creative Commons Attribution 2.5 License)*
 * Steven Bower - [jReject](http://jreject.turnwheel.com/) *(MIT License)*
-* The SQLite Development Team - [SQLite](https://sqlite.org/) *(Public Domain)*
 * The PHP Group - [PHP](http://php.net/) *(PHP License)*
 * Emanuil Rusev - [Parsedown](http://parsedown.org) *(MIT License)*
 * Kimberly Geswein - [Architects Daughter](http://www.kimberlygeswein.com/) *(SIL Open Font License)*
