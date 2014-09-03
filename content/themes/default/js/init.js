@@ -3,6 +3,9 @@ var THEME_NAME = $('#theme-name').text();
 // Load Link Labeler
 loadresource('content/themes/' + THEME_NAME + '/js/label-links.js');
 
+// Load Piwik Stats
+loadresource('content/themes/' + THEME_NAME + '/js/piwik.js');
+
 // -=[ LAZY LOADER ]===============================================================================================-
 console.log('INFO: Lazy loading JS & CSS based on elements in page...');
 
