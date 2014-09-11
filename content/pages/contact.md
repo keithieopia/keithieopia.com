@@ -12,7 +12,7 @@ the super computer that helps Sam and Al from the 90's TV show "Quantum
 Leap". 
 
 For sensitive information, you can encrypt the email with my PGP 
-key [0xE4547EDD](http://pgp.mit.edu/pks/lookup?op=get&search=0x43925265E4547EDD). 
+key [5B575AB0](http://pgp.mit.edu/pks/lookup?op=get&search=0x3F0E7E765B575AB0). 
 I use [Bitmessage](https://bitmessage.org/wiki/Main_Page) occasionally, 
 my address is: *BM-NBX5UVnzTakK8yTGFzNTudEMeFtgGQmA*. 
 

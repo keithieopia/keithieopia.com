@@ -32,7 +32,7 @@ anything won't break, but the threat of thermonuclear war from a simple game of 
                 <td><a href="https://bitmessage.org/wiki/Main_Page">BM-NBX5UVnzTakK8yTGFzNTudEMeFtgGQmA</a></td>
             </tr><tr>
                 <td><img src="content/themes/default/img/icons/key.png" title="PGP Public Key"></td>
-                <td><a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x43925265E4547EDD">0xE4547EDD</a></td>
+                <td><a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x3F0E7E765B575AB0">5B575AB0</a></td>
             </tr>
         </table>
     </section>
