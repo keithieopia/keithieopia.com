@@ -1,11 +1,11 @@
 Welcome
 =======
 
-Hello! Welcome to my website. You're probably here because you're curious [about me](./?p=about-me) or simply stumbled 
-upon this website by chance. In either case, feel free to look around and explore. 
+Hello! Welcome to my website. You're probably here because you're curious [about me](./?p=about-me) or simply stumbled
+upon this website by chance. In either case, feel free to look around and explore.
 
-This website runs a content management system that I designed called [.txt&beta;&uuml;ch](https://github.com/keithieopia/txtbuch) (pronounced "textbook"). 
-I'm constantly tweaking it, so simply looking around will help me to make it even better.
+This website runs a content management system that I designed called [.txt&beta;&uuml;ch](https://github.com/keithieopia/txtbuch)
+(pronounced "textbook"). I'm constantly tweaking it, so simply looking around will help me to make it even better.
 
 <!-- SIDEBAR -->
 
@@ -27,10 +27,7 @@ I'm constantly tweaking it, so simply looking around will help me to make it eve
                     </a>
                 </td>
             </tr><tr>
-                <td><img src="content/themes/default/img/icons/email_key.png" title="Bitmessage Me"></td>
-                <td><a href="https://bitmessage.org/wiki/Main_Page">BM-NBX5UVnzTakK8yTGFzNTudEMeFtgGQmA</a></td>
-            </tr><tr>
-                <td><img src="content/themes/default/img/icons/key.png" title="PGP Public Key"></td>
+                <td><img src="content/themes/default/img/icons/email_key.png" title="PGP Public Key"></td>
                 <td><a href="http://pgp.mit.edu/pks/lookup?op=get&search=0x3F0E7E765B575AB0">5B575AB0</a></td>
             </tr>
         </table>
