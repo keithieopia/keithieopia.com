@@ -1,9 +1,9 @@
 Reference
 =========
 
-Useful and interesting reference material mostly related to mathematics 
+Useful and interesting reference material mostly related to mathematics
 and linguistics. Some crossovers into cryptography and general security.
-Bonus section on network cable wiring schematics, because it's annoying 
+Bonus section on network cable wiring schematics, because it's annoying
 to remember.
 
 * [100,000 digits of Pi](./?p=ref-pi)
@@ -14,7 +14,3 @@ to remember.
 * [Greek Alphabet](./?p=ref-greek)
 * [Alphabet Letter Origins](./?p=ref-letter-origins)
 * [Network Cable Wiring](./?p=ref-wiring)
-
-Random Bonus Fact
------------------
-Q is the only letter not included in the name of any US state.
