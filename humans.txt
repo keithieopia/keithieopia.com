@@ -11,7 +11,7 @@
 
 /* TEAM */
     Builder:   Timothy
-    Contact:   timothy@keithieopia.com
+    Contact:   timothykeith@gmail.com
     Site:      keithieopia.com
     From:      Maryland, USA
 
