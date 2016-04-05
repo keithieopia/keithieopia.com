@@ -1,0 +1,548 @@
+@import url("content/themes/default/css/normalize.css");
+@import url("content/themes/default/css/layout.css");
+
+
+/* -=[ FONTS ]======================================================================================================- */
+
+@font-face {
+    font-family: 'Averia Serif';
+    src: url('./content/themes/default/fonts/averia.ttf');
+
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Architects Daughter';
+    src: url('./content/themes/default/fonts/architects-daughter.ttf');
+
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Celtic Knots';
+    src: url('./content/themes/default/fonts/celtic-knots.ttf');
+
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Kells SD';
+    src: url('./content/themes/default/fonts/kells-sd.ttf');
+
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* -=[ GLOBALS ]=======================================================================================================-
+ * We style only to the body tag elements instead of globally to prevent poorly
+ * styled javascript overlays from being styled.
+ */
+
+
+/* -=[ TABLES ]=- */
+
+td {
+    padding: 2px 5px;
+}
+
+.color-odd-rows tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.color-odd-rows td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* -=[ HEADERS ]=- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Architects Daughter';
+    font-weight: normal;
+
+    color: #FFFFFF;
+
+    text-shadow: -1px -1px 2px #000,
+                  1px  1px 2px #000;
+}
+
+h1 {
+    font-size: 32px;
+    padding-left: 48px;
+    background: transparent url('content/themes/default/img/h1.png') center left no-repeat;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* -=[ LINKS ]=- */
+a {
+    color: #184B2A;
+
+    text-decoration: none;
+
+    -webkit-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #528564;
+
+    text-shadow: -2px -1px 2px #184B2A,
+                  2px  1px 2px #184B2A;
+}
+
+a:active {
+    color: #85B897;
+
+    text-shadow: -2px -1px 2px #386B4A,
+                  2px  1px 2px #386B4A;
+}
+
+/* -=[ QUOTES ]=====================================================================================================- */
+
+#random-quote {
+    padding: 15px 10px;
+}
+
+.quote-content {
+    text-align: center;
+}
+
+.quote-author {
+    padding-top: 10px;
+
+    text-align: right;
+    font-size: .8em;
+}
+
+.quote-author:before {
+    content: '—';
+    padding-right: 5px;
+}
+
+.quote-source {
+    text-align: right;
+    font-size: .8em;
+    font-style: italic;
+}
+
+/* -=[ FORMS ]======================================================================================================- */
+textarea, input[type='text'], input[type='password'], select {
+    border: 1px solid #184B2A;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #090e09;
+
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    margin-bottom: 5px;
+}
+
+#login input[name='username'] {
+    background: #090e09 url('content/themes/default/img/icons/user.png') 5px center no-repeat;
+    padding-left: 30px;
+}
+
+#login input[name='password'] {
+    background: #090e09 url('content/themes/default/img/icons/key.png') 5px center no-repeat;
+    padding-left: 30px;
+}
+
+#login input[name='submit'] {
+    display: block;
+    margin: 10px auto 5px auto;
+}
+
+textarea {
+    background: #090e09 url('content/themes/default/img/paper.png') bottom right no-repeat;
+}
+
+input[type='submit'], button {
+    background-color: rgba(0, 0, 0, .25);
+
+    border-bottom: 3px solid #184B2A;
+    border-right: 1px solid #184B2A;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    border-left: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 5px;
+
+    min-width: 160px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    width: 156px;
+    cursor: pointer;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+fieldset {
+    border: 1px solid #184B2A;
+    border-radius: 8px;
+
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+legend {
+    padding: 0px 10px;
+}
+
+/* -=[ MESSAGE BOXES ]==============================================================================================- */
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.box {
+    padding: 10px 20px 10px 50px;
+    margin-bottom: 10px;
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+.error {
+    border-top: 5px solid #b32;
+    border-bottom: 5px solid #b32;
+    background: #eba url('content/themes/default/img/alert/cross.png') 10px center no-repeat;
+    color: #b32;
+}
+
+.prohibit {
+    border-top: 5px solid #b32;
+    border-bottom: 5px solid #b32;
+    background: #eba url('content/themes/default/img/alert/prohibit.png') 10px center no-repeat;
+    color: #b32;
+}
+
+.success {
+    border-top: 5px solid #795;
+    border-bottom: 5px solid #795;
+    background: #bda url('content/themes/default/img/alert/tick.png') 10px center no-repeat;
+    color: #795;
+}
+
+.info {
+    border-top: 5px solid #459;
+    border-bottom: 5px solid #459;
+    background: #bbe url('content/themes/default/img/alert/info.png') 10px center no-repeat;
+    color: #459;
+}
+
+.alert {
+    border-top: 5px solid #fa1;
+    border-bottom: 5px solid #fa1;
+    background: #feb url('content/themes/default/img/alert/exclaim.png') 10px center no-repeat;
+    color: #fa1;
+}
+
+/* -=[ HEADER ]=====================================================================================================- */
+
+header {
+    background: #043716 url('content/themes/default/img/clouds.png') repeat;
+}
+
+header h1 {
+    margin: 0px;
+    padding-left: 100px;
+
+    font-family: 'Kells SD';
+    font-size: 62px;
+    line-height: 100px; /* same as header height */
+
+    background: url('content/themes/default/img/logo.png') 20px center no-repeat;
+    background-size: 64px 64px;
+}
+
+header a h1,
+header a:hover h1,
+header a:active h1,
+header a:focus h1 {
+    color: #102518;
+
+    text-shadow: -1px -1px 2px #000,
+                  1px -1px 2px #000,
+                 -1px  1px 2px #000,
+                  1px  1px 2px #000;
+}
+
+/* -=[ NAVIGATION ]=================================================================================================- */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    font-family: 'Kells SD', san-serif;
+    font-size: 24px;
+    line-height: 64px;
+
+    text-align: center;
+}
+
+nav ul {
+    margin: 0px auto;
+    padding: 0px 30px;
+
+    display: inline-block;
+
+    background-image: url('content/themes/default/img/nav-left.png'), url('content/themes/default/img/nav-right.png');
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+
+    text-transform: uppercase;
+
+    color: #376A49;
+
+    text-shadow: -2px -1px 2px #043716,
+                  2px  1px 2px #043716;
+}
+
+nav ul li a:hover, a:focus{
+    color: #659877;
+}
+
+nav ul li a:active{
+    color: #85B897;
+
+    text-shadow: -2px -1px 2px #386B4A,
+                  2px  1px 2px #386B4A;
+}
+
+nav ul li:not(:first-child) {
+    background: transparent url('content/themes/default/img/ul.png') center left no-repeat;
+    padding-left: 55px;
+}
+
+/* -=[ CONTENT ]====================================================================================================- */
+
+#wrapper {
+    background: #043716 url('content/themes/default/img/knots.png') repeat;
+}
+
+#content {
+    font-family: 'Averia Serif';
+    font-size: 24px;
+
+    color: #659877;
+
+    margin: 20px auto;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 160px; /* must be same height as the footer + footer border */
+
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('content/themes/default/img/corner-top-left.png'),
+                      url('content/themes/default/img/corner-top-right.png'),
+                      url('content/themes/default/img/corner-bottom-left.png'),
+                      url('content/themes/default/img/corner-bottom-right.png');
+    background-position: left top, right top, left bottom, right bottom;
+    background-repeat: no-repeat;
+    background-size: 60px;
+
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+#content hr {
+    height: 100px;
+    background: url('content/themes/default/img/hr.png') no-repeat center;
+    border: 0px;
+}
+
+
+#content li {
+    list-style-image: url('content/themes/default/img/ul.png'); /* icons/bullet.png'); */
+}
+
+/* -=[ MAIN ]=-
+ * This is the main "content" container where all the page's text will go
+ */
+
+main {
+    padding-top: 10px;
+    padding-right: 25px; /* Spacing between content and sidebar */
+
+    text-align: justify;
+}
+
+main p:first-of-type:first-letter {
+    float: left;
+
+    font-family: 'Kells SD';
+    font-size: 3em;
+    padding-right: .1em;
+    padding-top: .1em;
+    line-height: 48px; /* font size x2 */
+
+    text-transform: uppercase;
+
+    color: #000;
+    text-shadow: -1px -1px 0 #659877,
+                  1px -1px 0 #659877,
+                 -1px  1px 0 #659877,
+                  1px  1px 0 #659877;
+}
+
+/* -=[ SIDEBAR ]=-
+ * We style the wrapper-content aside instead of globally so that we can use the aside
+ * for content also per the HTML5 recommendation.
+ */
+
+#content aside {
+    padding-top: 100px;
+
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#content aside table {
+    width: 100%;
+}
+
+/* -=[ SIDEBAR WIDGETS ]=-
+ * A simple box to house individual sections of content in the sidebar
+ */
+
+.widget {
+    display: block;
+    padding: 5px 5px 25px 5px;
+
+    background: linear-gradient(to bottom, #184B2A 0%, transparent 95%);
+    border-radius: 15px;
+}
+
+.widget section {
+    display: block;
+
+    background: #040804;
+    background: linear-gradient(to bottom, #090e09 80%, transparent 95%);
+    border-radius: 10px;
+    padding: 5px 10px 25px 10px;
+
+    min-height: 100px;
+}
+
+.widget h1 {
+    padding: 4px 0px 0px 26px;
+    margin: 0px 0px 0px 4px;
+    font-family: 'Architects Daughter'; /* This is Firefox personal invitation since it doesn't understand inheritance */
+    font-size: 20px;
+
+
+    background: transparent url('content/themes/default/img/h2.png') center left no-repeat;
+}
+
+/* -=[ FOOTER ]=====================================================================================================- */
+
+footer {
+    padding: 20px 100px;
+    width: 100%;
+
+    text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+    font-size: .6em;
+
+    color: #001300;
+
+    border-top: 10px rgba(0, 0, 0, 0.6) solid;
+    background: #043716 url('content/themes/default/img/clouds.png') repeat;
+}
+
+footer a {
+    color: #457857;
+}
+
+
+footer a:hover, footer a:focus {
+    color: #85B897;
+    text-shadow: -2px -1px 2px #528564,
+                  2px  1px 2px #528564;
+}
+
+footer a:active {
+    color: #EBFFFD;
+}
+
+#copyright {
+    size: 300px;
+    float: right;
+    text-align: left;
+}
+
+#links {
+    size: 300px;
+    float: left;
+    text-align: left;
+}
