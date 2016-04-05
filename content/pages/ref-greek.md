@@ -3,13 +3,12 @@ Greek Alphabet
 
 Alphabet
 --------
-<table>
+<table style="border-spacing: 10px; border-collapse: separate">
     <tr>
         <th>Uppercase</th>
         <th>Lowercase</th>
         <th>Name</th>
-    </tr>
-    <tr>
+    </tr><tr>
         <td>&Alpha;</td>
         <td>&alpha;</td>
         <td>Alpha</td>
@@ -57,7 +56,6 @@ Alphabet
         <td>&Mu;</td>
         <td>&mu;</td>
         <td>Mu</td>
-        <td>&amp;Mu;</td>
     </tr><tr>
         <td>&Nu;</td>
         <td>&nu;</td>
@@ -111,7 +109,7 @@ Alphabet
 
 Numerals
 --------
-<table>
+<table style="border-spacing: 10px; border-collapse: separate">
     <tr>
         <th>Value</th>
         <th>Letter</th>
@@ -192,7 +190,7 @@ Numerals
         <td>100</td>
         <td>&Rho;&#884; / &rho;&#884;</td>
         <td>Rho</td>
-    </tr><tr>        
+    </tr><tr>
         <td>200</td>
         <td>&Sigma;&#884; / &sigma;&#884;</td>
         <td>Sigma</td>
