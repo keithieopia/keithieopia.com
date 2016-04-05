@@ -1,0 +1,167 @@
+@import url("content/themes/clean/css/normalize.css");
+
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face{
+   font-family: 'Julius Sans One';
+   src: url('content/themes/clean/fonts/julius-sans-one.ttf') format('truetype');
+}
+
+@font-face{
+   font-family: 'Averia';
+   src: url('content/themes/clean/fonts/averia.ttf') format('truetype');
+}
+
+
+/* ==========================================================================
+   Top level tags
+   ========================================================================== */
+
+html, body {
+    margin: 0px;
+    height: 100%;
+
+    background: #F8F8FF; /* Ghost White */
+
+    font-family: Averia, Georgia, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #626262; /* Dim Gray */
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #;
+    background: inherit;
+}
+
+a {
+    text-decoration: none;
+
+    color: #4EABC9; /* Medium Turquoise */
+
+    transition: color .2s ease-out, background 1s ease-in;
+}
+
+a:hover, a:focus {
+    color: #81DEFC; /* Light Sky Blue */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Julius Sans One';
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #33A27F; /* Medium Sea Green */
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -150px; /* negative height of footer (150px) + padding (20px * 2) + border (2px) */
+}
+
+main {
+    width: 80%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer, .push {
+    height: 150px;
+}
+
+footer {
+    background: #222222 url('content/themes/clean/img/raven.png') left bottom no-repeat;
+    padding-top: 20px;
+    border-top: 2px solid #7161D0;
+
+    font-family: 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer .links {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+/* ==========================================================================
+   Page banner
+   ========================================================================== */
+
+header[role=banner] {
+    text-align: center;
+    margin-top: 60px;
+}
+
+header[role=banner] h1 {
+    font-size: 62px;
+    margin: 0;
+    line-height: 0;
+}
+
+header[role=banner] h1 a {
+    color: inherit;
+}
+
+.slogan {
+    font-style: italic;
+    top: -20px;
+    color: #7161D0; /* Slate Blue */
+}
+
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+nav {
+    background: #222222;
+    border-bottom: 2px solid #7161D0;
+
+    font-family: 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #7161D0;
+    border-bottom: 2px solid #7161D0;
+}
+
+.here {
+    border-bottom: 2px solid #7161D0;
+}

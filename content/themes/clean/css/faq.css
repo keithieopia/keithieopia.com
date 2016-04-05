@@ -1,0 +1,14 @@
+.faq dl {
+
+}
+
+.faq dt {
+    cursor: pointer;
+    color: #4EABC9;
+
+}
+
+.faq dd {
+    display: none;
+    font-style: italic;
+}

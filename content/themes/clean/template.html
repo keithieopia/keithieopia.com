@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page_title }} | {{ site_name }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="?p=css">
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <link type="text/plain" rel="author" href="http://{{ site_base-url }}/humans.txt" />
+        <meta name="description" content="{{ page_description }}">
+        <meta name="author" content="{{ author_name }}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav role="navigation">{{ func_navigation }}</nav>
+
+            <header role="banner">
+                <h1><a href="{{ site_base-url }}">{{ site_name }}</a></h1>
+                <p class="slogan">{{ site_slogan }}</p>
+            </header>
+
+            <main>{{ page_content }}</main>
+
+            <div class="push"></div>
+        </div>
+
+        <footer>
+            Copyright &copy; {{ year }} by {{ site_owner }}.<br>
+            Some Rights Reserved, see the <a href="./?p=copyright">license</a>.<br>
+
+            <section class="links">
+                <a href="./?p=policies#terms-of-service">Terms Of Service</a> |
+                <a href="./?p=policies#privacy-policy">Privacy Policy</a><br>
+
+                EXE: {{ func_get_runtime }} | MEM: {{ func_get_memory }}
+            </section>
+        </footer>
+        <script src="./?p=js"></script>
+    </body>
+</html>
