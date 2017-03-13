@@ -1,17 +1,62 @@
 humanstxt.org
 the humans responsible & colophon
 
-    _  __    _ _   _    _              _                          
-   | |/ /___(_) |_| |_ (_)___ ___ _ __(_)__ _
-   | ' </ -_) |  _| ' \| / -_) _ \ '_ \ / _` |          :: online since: 2006 ::
-   |_|\_\___|_|\__|_||_|_\___\___/ .__/_\__,_|          :: open-sourced: 2013 ::
+   _  __    _ _   _    _              _
+  | |/ /___(_) |_| |_ (_)___ ___ _ __(_)__ _
+  | ' </ -_) |  _| ' \| / -_) _ \ '_ \ / _` |     :: online since: 2006 ::
+  |_|\_\___|_|\__|_||_|_\___\___/ .__/_\__,_|     :: open-sourced: 2013 ::
                                  |_| .com
-            Timothy Keith
-        timothykeith@gmail.com
-        http://keithieopia.com
+           Timothy Keith
+       timothykeith@gmail.com
+       http://keithieopia.com
 
-_______________________________________________________________________________
+________________________________________________________________________________
 
+Languages: Ruby & Node.js
+Markup:    Sass, Liquid, HTML5, and CSS3
 
-T E C H   
--------
+Front End
+---------
+
+  Theme
+    While the color scheme and most of the markup is my own, I drew inspiration 
+    from Papyrus which is a Jekyll theme. Syntax highlighting uses the Base16 
+    Eighties Dark color scheme.
+    
+    Papyrus              - https://github.com/hugoferreira/papyrus-theme
+    Base16 Eighties Dark - https://github.com/chriskempson/base16
+
+  Libraries & Frameworks
+    Bootstrap     - https://getbootstrap.com
+    Normalize.css - https://necolas.github.io/normalize.css
+    jQuery        - https://jquery.com
+    
+  Fonts
+    PT Serif - https://fonts.google.com/specimen/PT+Serif
+    Raleway  - https://fonts.google.com/specimen/Raleway
+    Hack     - https://sourcefoundry.org/hack
+
+Back End
+--------
+
+  Jekyll - https://jekyllrb.com
+  
+  These plug-ins are used:
+    jekyll-last-modified-at - https://github.com/gjtorikian/jekyll-last-modified-at
+    kramdown                - https://kramdown.gettalong.org
+    Rogue                   - http://rouge.jneen.net
+
+Development
+-----------
+
+  Rake      - https://rubygems.org/gems/rake
+  Bower     - https://bower.io
+  Geany     - http://www.geany.org
+  GIMP      - https://www.gimp.org
+  OptiPNG   - http://optipng.sourceforge.net
+  Jpegoptim - http://www.kokkonen.net/tjko/projects.html
+
+________________________________________________________________________________
+
+Source code:   https://github.com/keithieopia/keithieopia.com
+Old Versions:  https://web.archive.org/web/*/https://keithieopia.com/
