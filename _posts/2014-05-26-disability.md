@@ -1,53 +1,49 @@
-My Learning Disability
-======================
+---
+layout: post
+title: Auditory Processing Disorder
+date: 2014-05-26
+categories: me
+---
+
 For all my life I have had a disability called Central Auditory Processing
 Disorder (CAPD). People with CAPD have great difficulty understanding what
 others say, especially when in noisy environments such as cafeterias,
 playgrounds, gyms, bars, and public sporting events.
 
-Unlike people that are deaf or those that wear hearing aids, CAPD does
-not occur due to damage to the ear, but rather how the brain interpretes
-the signals that get sent from the ear. It is also unrelated to those that
-have mental conditions such as low IQ's.
+With me, the disorder manifests itself in two different ways. In loud
+environments, it's similar to having a conversation with someone on the other
+side of a crowded indoor basketball court. Essentially, you can hear that
+everyone talking, but it's almost impossible to pick out their voice from
+everyone else.
 
-With me, the disorder manifests itself similarly to the teachers in Charlie
-Brown; you can "hear" that the person is talking, but cannot understand
-what they are saying. Sometimes it even "sounds" similar to that
-"wah wah wah" effect in the cartoon.
+In more quiet environments. a good analogy is the teacher in Charlie Brown; you
+can "hear" perfectly that the person is talking, but cannot understand what they
+are saying. Sometimes it even "sounds" similar to that "wah wah wah" effect in
+the cartoon.
 
-Despite my disadvantage, I have been able to overcome my disability and
-succeed. However it's always present in my life and there is no cure or
-medicine for CAPD.
+Despite this disadvantage, there are quite a few strategies someone with CAPD
+learns to be able to succeed. We're typically good at reading lips and body
+language. Within Academics, it's not uncommon to have stronger reading skills
+compared to peers, as individuals with CAPD learn early to compensate.
 
-To College and Beyond: My Success Story
----------------------------------------
-I was first diagnosed with CAPD in elementary school and attended special
-classes a few days out of the week which taught coping strategies. All
-the way to my high school graduation, I had an accommodation plan that
-provided some minor (but essential) accommodations such as written notes
-if the class was mostly verbal instruction.
+Unlike people that are deaf or have hearing loss, CAPD is not caused by anything
+wrong with the ear itself, but rather how the brain interprets signals from the
+ear via the nervous system. 
 
-I took orchestra from Middle School all the way through High School which
-I learned CAPD isn't necessarily limited to difficulty understanding
-speech alone, but anything auditory such as playing instruments in a band.
-In High School, I also challenged myself further by taking a foreign
-language for all four years despite having difficulty understanding my
-native language. It's been awhile, but I still remember enough German to
-definitively state, "Ich spreche Deutsch nicht sehr gut".
+There is no cure for CAPD, and people with it will face its unique challenges 
+for the rest of their life. While the disorder is relatively mild compared to 
+other chronic conditions, it does cause significant social irritation at times.
 
-In College, my disability was documented and I was actually entitled by
-the college to the same services and even more if needed. I made it a
-personal goal not to use these services once during my entire academic
-career. I graduated *cum laude*, and in addition to my honor stole,
-I also wore honor cords from the Delta Alpha Pi (an international honor
-society for students with disabilties), for academic achievement while
-overcoming a disability.
+## Diagnosis
 
-I then went on to obtain my Master's degree, this time without
-documenting my disability so I wouldn't have the mental safety net of
-services if I need them should I have difficulty. Not using services in
-college and not even requesting them in graduate school made the journey
-much more difficult than what other students encountered, but was
-incredibly rewarding in the end and I was able to prove to myself that
-anything is possible if you put your mind to it and are willing to work
-hard enough to achieve your goals.
+An Audiologist using specialized equipment is responsible for diagnosing the 
+disorder. Testing is done in soundproof rooms which can resemble an enclosed 
+vault or decompression chamber. The process can be lengthy as other issues such 
+as hearing loss have to be ruled out.
+
+For children, audiologists typically work with a team of psychologists and
+behavioral specialists to rule out disorders like ADD/ADHD, Austism, and
+language development disorders. These disorders are more common than general 
+APDs, however they can also be a misdiagnosis. Children that don't understand 
+what they hear can act in a way that's easily misinterpreted as inattentiveness 
+or poor behavior by adults.
