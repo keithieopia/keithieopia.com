@@ -1,25 +1,17 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
+humanstxt.org
+the humans responsible & colophon
 
-/*=============================================================================*
- =   _  __    _ _   _    _              _                      -               =
- =  | |/ /___(_) |_| |_ (_)___ ___ _ __(_)__ _              \--|--/            =
- =  | ' </ -_) |  _| ' \| / -_) _ \ '_ \ / _` |       -=[ GLUTEN FREE ]=-      =
- =  |_|\_\___|_|\__|_||_|_\___\___/ .__/_\__,_|             /--|--\            =
- =                                |_| .COM                     -               =
- *=============================================================================*/
+    _  __    _ _   _    _              _                          
+   | |/ /___(_) |_| |_ (_)___ ___ _ __(_)__ _
+   | ' </ -_) |  _| ' \| / -_) _ \ '_ \ / _` |          :: online since: 2006 ::
+   |_|\_\___|_|\__|_||_|_\___\___/ .__/_\__,_|          :: open-sourced: 2013 ::
+                                 |_| .com
+            Timothy Keith
+        timothykeith@gmail.com
+        http://keithieopia.com
 
-/* TEAM */
-    Builder:   Timothy
-    Contact:   timothykeith@gmail.com
-    Site:      keithieopia.com
-    From:      Maryland, USA
+_______________________________________________________________________________
 
-/* SITE */
-    Technologies:  PHP, Markdown
-    Standards:     HTML5, CSS3
-    Components:    jQuery (http://jquery.com/), Modernizr (http://modernizr.com/),
-                   Normalize.css (https://necolas.github.io/normalize.css/), Parsedown (http://parsedown.org)
-    Software:      Geany, git, GIMP
-    Fonts:         Averia Serif (http://iotic.com/averia/),
-                   Julius Sans One (https://www.google.com/fonts/specimen/Julius+Sans+One)
+
+T E C H   
+-------
