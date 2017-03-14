@@ -17,7 +17,7 @@ D&#xEC;omhair means *secret* or *private* in Scots Gaelic, among
 
 
 ### GPG / OpenPGP / PGP
-If you're privacy conscious, feel free to encrypt any messages using my [public key](/timothykeith_at_gmail_dot_com.asc). If you prefer, the key is also available on [MIT's PKS](https://pgp.mit.edu/pks/lookup?op=get&search=0xF4F4A135C022EE12) or [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
+If you're privacy conscious, feel free to encrypt any messages using my [public key](/assets/timothykeith_at_gmail_dot_com.asc). If you prefer, the key is also available on [MIT's PKS](https://pgp.mit.edu/pks/lookup?op=get&search=0xF4F4A135C022EE12) or [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
 
 > 4135 C593 1D89 368E 7F32 C8ED **F4F4 A135 C022 EE12**
 
