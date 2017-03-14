@@ -26,3 +26,8 @@ end
 task :jekyll_build do
     system('jekyll build')
 end
+
+task :upload do
+    system('rsync -rvhz --progress \
+            --delete _site/ keithieopia.com:/srv/http/keithieopia')
+end
