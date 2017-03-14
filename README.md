@@ -7,6 +7,21 @@
 > &mdash; John Howe
 
 
+## Development
+[Rake](https://ruby.github.io/rake/) is used to aid development and automate 
+building the site, in a similar fashion to a Makefile or using Grunt. 
+
+**To build the site, outputs to `_site` directory:**
+```console
+$ rake build
+```
+
+**To build and start Jekyll's temporary http server:**
+```console
+$ rake serve
+```
+
+
 ## Feedback
 I would love your feedback! If you found any of these scripts useful, please
 drop me [an email](mailto:timothykeith@gmail.com). For the privacy conscious,
