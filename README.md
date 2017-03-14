@@ -43,10 +43,10 @@ $ rake upload
 
 
 ## Credits
-Developers make use of the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/humans.txt) 
-file, which lists in detail the third party components. Alternatively, the 
-site's [colophon](https://keithieopia.com/colophon/) is a friendlier high-level 
-overview with a description of the server environment.
+See the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/humans.txt) 
+file, which lists in detail all the third party components this site uses. 
+Alternatively, the site's [colophon](https://keithieopia.com/colophon/) provides 
+a high-level overview with a description of the server environment.
 
 
 ## Feedback
