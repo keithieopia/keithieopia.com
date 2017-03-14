@@ -54,7 +54,5 @@ is downloaded locally so no third-party websites are involved.
 
 ### Opt-out of Analytics
 If your browser has the *Do Not Track* preference set, you're automatically
-opted out of the analytics by default. Otherwise, you can specifically opt out
-below:
-
-<iframe style="border: 0; height: 200px; width: 600px;" src="http://piwik.keithieopia.com/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
+opted out of the analytics by default. Otherwise, you can visit [here](https://piwik.keithieopia.com/index.php?module=CoreAdminHome&action=optOut&language=en) 
+to opt-out.
