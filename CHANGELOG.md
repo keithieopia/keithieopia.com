@@ -1,3 +1,8 @@
+## 2.0 (2017-03-13)
+    - Site is now statically generated with Jekyll
+    - New theme using Bootstrap based on Papyrus layout and Base16 color scheme
+    - Assets such as JS, CSS, & Fonts managed with Bower
+    
 ## 1.0 (2016-04-04)
     - New clean theme
     - Removed SQLite logging stuff for speed (didn't really use it anyway)
