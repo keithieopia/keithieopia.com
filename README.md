@@ -6,20 +6,47 @@
 >
 > &mdash; John Howe
 
+This is the source code for my personal website, [https://keithieopia.com](https://keithieopia.com).
+The final HTML & CSS is excluded; the site is statically generated on the fly by 
+[Jekyll](https://jekyllrb.com/), a static site generator written in Ruby. See
+the Development section for details on how to do this.
+
+The site has been online since 2006 and open-sourced since 2013. Since then, 
+it's back end has undergone many revisions; see the [CHANGELOG.md](https://github.com/keithieopia/keithieopia.com/blob/master/CHANGELOG.md)
+for details.
+
 
 ## Development
 [Rake](https://ruby.github.io/rake/) is used to aid development and automate 
-building the site, in a similar fashion to a Makefile or using Grunt. 
+building the site, in a similar fashion to a Makefile or using Grunt.
 
-**To build the site, outputs to `_site` directory:**
+### To build the site
+Uses Jekyll to build the site and store output in the `_site` sub directory. 
+
 ```console
 $ rake build
 ```
 
-**To build and start Jekyll's temporary http server:**
+### Build and start a developmental web server
+Jekyll includes a built-in HTTP server for development. The site is 
+automatically regenerated if a file is added or edited.
 ```console
 $ rake serve
 ```
+
+### Upload the site
+Uploads the site using `rsync` over SSH, deleting any old data on the server. 
+You must run `rake build` or `rake serve` to generate the site beforehand.
+```console
+$ rake upload
+```
+
+
+## Credits
+Developers make use of the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/humans.txt) 
+file, which lists in detail the third party components. Alternatively, the 
+site's [colophon](https://keithieopia.com/colophon/) is a friendlier high-level 
+overview with a description of the server environment.
 
 
 ## Feedback
