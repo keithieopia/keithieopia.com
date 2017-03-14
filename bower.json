@@ -1,0 +1,28 @@
+{
+  "name": "keithieopia.com",
+  "description": "My personal website / blog",
+  "homepage": "https://github.com/keithieopia/.com",
+  "authors": [
+    "Timothy Keith <timothykeith@gmail.com> (https://keithieopia.com)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keithieopia/.com.git"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3",
+    "jquery": "~3.0",
+    "pt-serif": null,
+    "raleway-googlefont": null,
+    "hack": null
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "private": true,
+  "resolutions": {
+    "bootstrap": "^3.3.7"
+  }
+}

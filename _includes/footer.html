@@ -1,0 +1,39 @@
+<footer>
+    <div class="container">
+        <div class="row biography">
+            <div class="col-sm-4">
+                <h2>who am i</h2>
+                <p>{{ site.biography }}</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>what is this</h2>
+                <p>{{ site.description }}</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>where am i</h2>
+                <ul>
+                {% for link_hash in site.links %}
+                    {% for link in link_hash %}
+                        <li><a href="{{ link[1] }}">{{ link[0] }}</a>
+                    {% endfor %}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="row colophon">
+            {{ site.copyright }}
+
+            <ul>
+            {% for page in site.pages %}
+                {% for category in page.categories %}
+                    {% if category == "meta" %}
+                        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            </ul>
+        </div>
+        
+    </div>
+</footer>

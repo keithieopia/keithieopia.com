@@ -1,0 +1,42 @@
+# Site settings
+title: "Keithieopia"
+author: "Timothy Keith"
+keywords: > 
+    quotes, programming, computer networking, cryptography, letter frequencies, 
+    pi, square roots, cube roots, prime numbers
+description: >
+    Original research on a variety of nerdy topics. Also, a reference
+    section for topics with pointy teeth. <em>Don't worry, they've properly 
+    leashed.</em>
+biography: >
+    I'm Timothy Keith, a developer, musician, and father based out of Maryland. 
+    Would you like to know <a href="/about">more</a>?
+copyright: >
+    Copyright © MMVI &ndash; MMXVII by <a href="/contact">Timothy Keith</a>.<br>
+    Some Rights Reserved, see the <a href="/license">license</a>.
+baseurl: ""
+url: "https://keithieopia.com"
+links:
+    - About.me: https://about.me/timothykeith
+    - GitHub: https://github.com/keithieopia
+    - IMDb: http://www.imdb.com/user/ur73901400/ratings?sort=user_rating:desc
+    - Keybase: https://keybase.io/timothykeith
+    - Stack Overflow: https://stackoverflow.com/users/7416714/keithieopia
+    - Steam: https://steamcommunity.com/id/keithieopia
+    - TED: https://www.ted.com/profiles/7189113
+simple_search: http://google.com/search
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+include: ['_pages']
+exclude:
+    - "Gemfile"
+    - "Gemfile.lock"
+    - "Rakefile"
+    - "bower_components"
+    - "bower.json"
+    - "CHANGELOG.md"
+    - "LICENSE"
+    - "README.md"
+gems:
+    - jekyll-last-modified-at
