@@ -4,7 +4,7 @@ baseurl = "http://keithieopia.com/"
 copyright = "MMVI &ndash; MMXVII by <a href='/contact'>Timothy Keith</a>.<br>Some Rights Reserved, see the <a href='/license'>license</a>."
 
 pygmentsstyle = "autumn"
-theme = "keithieopia"
+theme = "hugo-zen"
 
 [params]
   logo      = "/images/logo.png"
