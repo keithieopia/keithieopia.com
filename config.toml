@@ -1,0 +1,12 @@
+languageCode = "en-us"
+title = "Keithieopia"
+baseurl = "http://keithieopia.com/"
+copyright = "MMVI &ndash; MMXVII by <a href='/contact'>Timothy Keith</a>.<br>Some Rights Reserved, see the <a href='/license'>license</a>."
+
+pygmentsstyle = "autumn"
+theme = "keithieopia"
+
+[params]
+  logo      = "/images/logo.png"
+  email     = "timothykeith@gmail.com"
+  github    = "https://github.com/keithieopia/"

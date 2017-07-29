@@ -1,3 +1,8 @@
+## 3.0 (2017-07-29)
+    - Changed static generator to Hugo
+    - Theme changed to a modified version of "Hugo Zen" by OCHIISHI Koichiro
+    - Assets managed with yarn
+
 ## 2.0 (2017-03-13)
     - Site is now statically generated with Jekyll
     - New theme using Bootstrap based on Papyrus layout and Base16 color scheme
