@@ -1,16 +1,14 @@
----
-layout: post
-title: Get a File's Creation Date in Git 
-date: 2017-03-09
-categories: git
----
++++
+title = "Get a File's Creation Date in Git"
+date = "2017-03-09"
++++
 
 If you want to find the creation date of a file in a git repo, you can issue 
 the below command. Replace `[FILENAME]` with the respective file):
 
-{% highlight shell_session %}
+{{< highlight bash >}}
 $ git log -1 --format="%ai" --reverse [FILENAME]
-{% endhighlight %}
+{{< /highlight >}}
 
 Alternatively, if you change `%ai` to `%ac` you'll get the date the file was 
 committed.
@@ -22,9 +20,9 @@ files are created irregardless of git. Normally you can use `stat` to display
 this, but the required system calls are [not implemented](https://lwn.net/Articles/397442/) 
 yet in the Linux kernel:
 
-{% highlight shell_session %}
+{{< highlight bash >}}
 $ stat -c %w [FILENAME]
-{% endhighlight %}
+{{< /highlight >}}
 
 Ironically, the main reason for the lack of compatibility under Linux is all the 
 other systems (BSD, Unix, and Windows) are all incompatible with one another and 
