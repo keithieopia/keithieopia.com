@@ -1,10 +1,7 @@
----
-layout: post
-title: Nazis Misappropriated My Privacy!
-date: 2017-02-28
-comments: false
-categories: quotes
----
++++
+title = "Nazis Misappropriated My Privacy!"
+date = "2017-02-28"
++++
 
 Given all the renewed interest in privacy rights in the so-called
 *Post Snowden Era*, I'd thought I'd clarify a misattributed quote floating
@@ -45,12 +42,12 @@ disappointed to learn that the original context was used both *for* and
 > friends&mdash; people residing in places as far apart as California and Florida. I
 > recall the bland smile of a government official to whom I complained about
 > this matter: "**If you have nothing to hide you have nothing to fear.**"
->
+>  
 > &mdash; Upton Sinclair, *The Profits of Religion (1918)*
 
 ### Sinclair for Surveillance
 > From first to last **I had nothing to hide, and for that reason I had nothing
 > to fear**, and this was as well known to the newspapers as it was to the
 > police who were probing the explosion.
->
-> Upton Sinclair, *The Brass Check (1919)*
+>  
+> &mdash; Upton Sinclair, *The Brass Check (1919)*
