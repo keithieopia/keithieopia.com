@@ -23,6 +23,11 @@
 yarn:
 > yarn upgrade
 > rsync -avh node_modules/skeleton-css/css/*.css themes/hugo-zen/static/css/
+> rsync -avh node_modules/typeface-quattrocento/files/*.woff2 themes/hugo-zen/static/fonts/
+> rsync -avh node_modules/typeface-quattrocento/files/*.woff themes/hugo-zen/static/fonts/
+> rsync -avh node_modules/typeface-roboto/files/*.woff2 themes/hugo-zen/static/fonts/
+> rsync -avh node_modules/typeface-roboto/files/*.woff themes/hugo-zen/static/fonts/
+
 
 dev: yarn
 > hugo server --buildDrafts --watch
