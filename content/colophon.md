@@ -1,6 +1,8 @@
 +++
 title = "Colophon"
 date = "2017-02-23"
+url = "/colophon/"
+hidefromhome = "true"
 +++
 
 This website is maintained by [Timothy Keith](/about) who is based out of Maryland, which in the United States of America. Content is written in markdown using [ReText](https://github.com/retext-project/retext). Code and stylesheets are maintained with [Kate](https://www.kde.org/applications/utilities/kate/). Images are edited in [GIMP](https://www.gimp.org/) and optimised using [jpegoptim](https://github.com/tjko/jpegoptim) or [OptiPNG](http://optipng.sourceforge.net/).
@@ -11,4 +13,4 @@ The site is served by [lighttpd](http://www.lighttpd.net/) running on [Debian](h
 in Newark, NJ and uses domain services from [NearlyFreeSpeech.NET](https://www.nearlyfreespeech.net/). Encrypted connections (HTTPS) are made possible by certificates provided by [Let's Encrypt](https://letsencrypt.org/).
 
 This site has never implemented any form of advertising. If you see such, you may be infected with malware. For the curious, the total infrastructure
-costs is exactly $133.62 per year, which includes hosting, bandwidth, domain name, etc.
+cost (hosting, domain name, bandwidth, etc) is exactly $133.62 per year.
