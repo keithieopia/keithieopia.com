@@ -1,10 +1,9 @@
----
-layout: page
-title: About Me
-date: 2014-06-22
-categories: me
-permalink: /about/
----
++++
+title = "About Me"
+date = "2014-06-22"
+url = "/contact/"
+hidefromhome = "true"
++++
 
 In grade school, I had a teacher that played a game called *Rare Birds* with
 each of her classes. The object was to silently write down three unusual facts
