@@ -5,3 +5,11 @@
 skeleton-css@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/skeleton-css/-/skeleton-css-2.0.4.tgz#d70db2f01fe8209ac79f2f4eee83fae8a40591b8"
+
+typeface-quattrocento@^0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/typeface-quattrocento/-/typeface-quattrocento-0.0.31.tgz#c41e48249a1e0965e40dc5c384f88cbb5a3c014e"
+
+typeface-roboto@^0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/typeface-roboto/-/typeface-roboto-0.0.31.tgz#6bb65f4cf68c6bf68a6739417d98b2dfecb7b263"

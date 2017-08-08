@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "skeleton-css": "^2.0.4"
+    "skeleton-css": "^2.0.4",
+    "typeface-quattrocento": "^0.0.31",
+    "typeface-roboto": "^0.0.31"
   }
 }
