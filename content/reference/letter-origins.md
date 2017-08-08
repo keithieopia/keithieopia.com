@@ -1,18 +1,13 @@
----
-layout: page
-title: Latin Alphabet Letter Origins
-date: 2014-09-02
-categories: reference
----
++++
+title = "Latin Alphabet Letter Origins"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
-This page lists the known origins of each of the alphabet letters. Most people
-know the English language uses the Latin alphabet as it's a descendant of Latin. 
-We can actually trace the providence even farther: Latin evolved from Greek, 
-Greek from Phoenician, which in turn was derived from Egyptian hieroglyphics.
+This page lists the known origins of each of the alphabet letters. Most people know the English language uses the Latin alphabet as it's a descendant of Latin. We can actually trace the providence even farther: Latin evolved from Greek, Greek from Phoenician, which in turn was derived from Egyptian hieroglyphics.
 
 ## Table of Contents
-Letters inside guillemets, like &lsaquo;this&rsaquo;, means that it's relatively 
-new or used semi-exclusively in modern English. 
+Letters inside guillemets, like &lsaquo;this&rsaquo;, means that it's relatively new or used semi-exclusively in modern English. 
 
 [A](#a)
 [B](#b)

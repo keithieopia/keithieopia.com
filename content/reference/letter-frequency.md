@@ -1,9 +1,8 @@
----
-layout: page
-title: Letters Frequencies
-date: 2014-09-02
-categories: reference
----
++++
+title = "Letters Frequencies"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
 The left table column contains each letter of the alphabet ordered by the
 frequency it occurred. The right column contains the most common English

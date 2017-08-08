@@ -1,9 +1,8 @@
----
-layout: page
-title: Top 10,000 Passwords
-date: 2014-09-02
-categories: reference
----
++++
+title = "Top 10,000 Passwords"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
 Below is a table of the top 10,000 passwords 98.8% of all users choose. The data
 is from [Mark Burnett](http://xato.net/passwords/more-top-worst-passwords) who

@@ -1,9 +1,8 @@
----
-layout: page
-title: Network Wiring
-date: 2014-09-02
-categories: reference
----
++++
+title = "Network Wiring"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
 Category 5 cable uses 4 twisted-pair cables, for a total of 8 individual wires.
 The cable supports a maximum distance of 100 meters (328 feet), although that

@@ -1,9 +1,8 @@
----
-layout: page
-title: The Greek Alphabet
-date: 2014-09-02
-categories: reference
----
++++
+title = The Greek Alphabet"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
 <table>
     <tr>

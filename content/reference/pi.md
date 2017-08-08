@@ -1,9 +1,8 @@
----
-layout: page
-title: First 100,000 digits of Pi
-date: 2014-09-02
-categories: reference
----
++++
+title = "First 100,000 digits of Pi"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
 Below are the first 100,000 digits of &pi;. Every digit after the decimal point has been divided into groups of 10 digits
 to help with readability. Using the first <em>n</em> values of &pi; is always better than using fractional approximations

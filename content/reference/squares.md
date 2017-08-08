@@ -1,9 +1,8 @@
----
-layout: page
-title: Squares, Cubes, and Roots
-date: 2014-09-02
-categories: reference
----
++++
+title = "Squares, Cubes, and Roots"
+date = "2014-09-02"
+hidefromhome = "true"
++++
 
 Below are tables listing the squared and cube values for numbers 1 through 1000.
 The table can also be used to do find the square root of 1 to 1000000, and the
