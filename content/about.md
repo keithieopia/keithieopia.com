@@ -1,7 +1,7 @@
 +++
 title = "About Me"
 date = "2014-06-22"
-url = "/contact/"
+url = "/about/"
 hidefromhome = "true"
 +++
 
