@@ -18,11 +18,6 @@ The site has been online since 2006 and open-sourced since 2013. Since then, it'
 - `make dev` - Watch files for changes and automatically rebuild the site. Also, starts a built-in HTTP server and opens the default browser to see changes.
 - `make push` - Runs both `make yarn` and `make build`, then uploads the site to my webserver
 
-- Run [Yarn](https://yarnpkg.com/en/) to download all the updates to dependances such as Google Fonts & [Skeleton](http://getskeleton.com/).
-- Copy the dependances into their proper folders
-- Run Hugo to build the site
-- Upload the build to my webserver
-
 
 ## Credits
 See the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/humans.txt) file, which lists in detail all the third party components this site uses. Alternatively, the site's [colophon](https://keithieopia.com/colophon/) provides a high-level overview with a description of the server environment.
