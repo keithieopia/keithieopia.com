@@ -6,6 +6,10 @@ skeleton-css@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/skeleton-css/-/skeleton-css-2.0.4.tgz#d70db2f01fe8209ac79f2f4eee83fae8a40591b8"
 
+typeface-fredericka-the-great@^0.0.35:
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/typeface-fredericka-the-great/-/typeface-fredericka-the-great-0.0.35.tgz#0722d44fced40699c13b1e8afc53e269016632cb"
+
 typeface-quattrocento@^0.0.31:
   version "0.0.31"
   resolved "https://registry.yarnpkg.com/typeface-quattrocento/-/typeface-quattrocento-0.0.31.tgz#c41e48249a1e0965e40dc5c384f88cbb5a3c014e"
