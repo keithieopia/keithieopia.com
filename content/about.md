@@ -3,6 +3,7 @@ title = "About Me"
 date = "2014-06-22"
 url = "/about/"
 hidefromhome = "true"
+menu = "main"
 +++
 
 In grade school, I had a teacher that played a game called *Rare Birds* with
