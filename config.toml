@@ -10,3 +10,12 @@ theme = "hugo-zen"
   logo      = "/images/logo.png"
   email     = "timothykeith@gmail.com"
   github    = "https://github.com/keithieopia/"
+  
+[[menu.footer]]
+  name = "Colophon"
+  url  = "/colophon/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -100
+  url = "/"

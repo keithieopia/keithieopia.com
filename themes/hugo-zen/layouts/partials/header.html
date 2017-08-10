@@ -19,9 +19,23 @@
 
 <div class="container">
 
-	<header role="banner">
-		<div class="header-logo">
-			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
-		</div>
-		{{ if eq $isHomePage true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
-	</header>
+    <header role="banner"{{ if eq $isHomePage false }} class="header-compact"{{ end }}>
+
+        <a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}" class="header-logo{{ if eq $isHomePage false }} header-left{{ end }}"></a>
+
+        {{ if eq $isHomePage false }}<div class="header-right">{{ end }}
+
+        <h1 class="site-title">{{ .Site.Title }}</h1>
+
+        <nav class="main-menu">
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li><a class="main-menu-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} menu-active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+                {{ end }}
+            </ul>
+        </nav>
+
+        {{ if eq $isHomePage false }} </div> {{ end }}
+    </header>
+
