@@ -20,7 +20,7 @@ The site has been online since 2006 and open-sourced since 2013. Since then, it'
 
 
 ## Credits
-See the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/humans.txt) file, which lists in detail all the third party components this site uses. Alternatively, the site's [colophon](https://keithieopia.com/colophon/) provides a high-level overview with a description of the server environment.
+See the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/static/humans.txt) file, which lists in detail all the third party components this site uses. Alternatively, the site's [colophon](https://keithieopia.com/colophon/) provides a high-level overview with a description of the server environment.
 
 
 ## Feedback
