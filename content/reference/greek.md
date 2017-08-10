@@ -1,5 +1,5 @@
 +++
-title = The Greek Alphabet"
+title = "The Greek Alphabet"
 date = "2014-09-02"
 hidefromhome = "true"
 +++
