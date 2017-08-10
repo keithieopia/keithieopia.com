@@ -12,46 +12,46 @@ the humans responsible & colophon
 
 ________________________________________________________________________________
 
-Languages: Ruby & Node.js
-Markup:    Sass, Liquid, HTML5, and CSS3
+Languages: Go, Node.js, and Python
+Markup:    Markdown, HTML5, and CSS3
 
 Front End
 ---------
 
-  Theme
-    While the color scheme and most of the markup is my own, I drew inspiration 
-    from Papyrus which is a Jekyll theme. Syntax highlighting uses the Base16 
-    Eighties Dark color scheme.
-    
-    Papyrus              - https://github.com/hugoferreira/papyrus-theme
-    Base16 Eighties Dark - https://github.com/chriskempson/base16
+  [ Theme ]
+    I used OCHIISHI Koichiro's "Hugo Zen" theme as a starting point and 
+    modified it to my tastes. I added top and bottom bars after I saw "Minimal"
+    by Calin Tataru. The color scheme comes from "Crisp" by Thibault NORMAND.
 
-  Libraries & Frameworks
-    Bootstrap     - https://getbootstrap.com
-    Normalize.css - https://necolas.github.io/normalize.css
-    jQuery        - https://jquery.com
-    
-  Fonts
-    PT Serif - https://fonts.google.com/specimen/PT+Serif
-    Raleway  - https://fonts.google.com/specimen/Raleway
-    Hack     - https://sourcefoundry.org/hack
+    Syntax highlighting uses the Autumn, which is one of the base color schemes
+    included with Pygments
+
+    Hugo Zen - https://github.com/rakuishi/hugo-zen
+    Minimal  - https://github.com/calintat/minimal
+    Crisp    - https://github.com/Zenithar/hugo-theme-crisp
+
+  [ Libraries & Frameworks ]
+    Skeleton - http://getskeleton.com/
+
+  [ Fonts ]
+    Fredericka the Great   - https://fonts.google.com/specimen/Fredericka+the+Great
+    Quattrocento           - https://fonts.google.com/specimen/Quattrocento
+    Roboto                 - https://fonts.google.com/specimen/Roboto
 
 Back End
 --------
 
-  Jekyll - https://jekyllrb.com
-  
-  These plug-ins are used:
-    jekyll-last-modified-at - https://github.com/gjtorikian/jekyll-last-modified-at
-    kramdown                - https://kramdown.gettalong.org
-    Rogue                   - http://rouge.jneen.net
+Hugo     - http://gohugo.io/ 
+Pygments - http://pygments.org/
+
 
 Development
 -----------
 
-  Rake      - https://rubygems.org/gems/rake
-  Bower     - https://bower.io
-  Geany     - http://www.geany.org
+  Make      - https://www.gnu.org/software/make/
+  Yarn      - https://yarnpkg.com/en/
+  ReText    - https://github.com/retext-project/retext
+  Kate      - https://kate-editor.org/
   GIMP      - https://www.gimp.org
   OptiPNG   - http://optipng.sourceforge.net
   Jpegoptim - http://www.kokkonen.net/tjko/projects.html
