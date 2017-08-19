@@ -19,3 +19,6 @@ theme = "hugo-zen"
   name = "Blog"
   weight = -100
   url = "/"
+[[menu.main]]
+  name = "Git"
+  url = "http://git.keithieopia.com/"
