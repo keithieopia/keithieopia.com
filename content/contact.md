@@ -3,6 +3,7 @@ title = "Contact"
 date = "2016-04-04"
 url = "/contact/"
 hidefromhome = "true"
+menu = "main"
 +++
 
 The easiest way to contact me is via my email address: [timothykeith@gmail.com](mailto:diomhair@protonmail.com).
@@ -18,10 +19,9 @@ If you're privacy conscious, feel free to encrypt any messages using my [public 
 
 You can import it directly into [GnuPG](https://gnupg.org/) into your keyring by running the following:
 
-{{< highlight bash >}}
+{{< highlight console >}}
 $ gpg --keyserver pgp.mit.edu --recv-key 0xF4F4A135C022EE12
-{{< /highlight >}}
-
+{{< / highlight >}}
 
 ## Elsewhere
 I use to be on social networks like Facebook and Twitter, but not anymore. Nowadays you can find me on the following sites:
