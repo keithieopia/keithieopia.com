@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "microlight": "^0.0.7",
     "skeleton-css": "^2.0.4",
     "typeface-fredericka-the-great": "^0.0.35",
     "typeface-quattrocento": "^0.0.31",
