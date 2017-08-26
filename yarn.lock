@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-microlight@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/microlight/-/microlight-0.0.7.tgz#f3d7eb460acc11317bb32388b29930d54ba47890"
-
 skeleton-css@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/skeleton-css/-/skeleton-css-2.0.4.tgz#d70db2f01fe8209ac79f2f4eee83fae8a40591b8"
