@@ -13,15 +13,18 @@ If you prefer not to use Google, I also have an alternative email at: [diomhair@
 
 
 ## GPG / OpenPGP / PGP
-If you're privacy conscious, feel free to encrypt any messages using my [public key](/uploads/keithieopia_pubkey.asc). If you prefer, the key is also available on [MIT's PKS](https://pgp.mit.edu/pks/lookup?op=get&search=0xF4F4A135C022EE12) or [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
+If you're privacy conscious, feel free to encrypt any messages using my [public key](/uploads/timothykeith.pub.asc). If you prefer, my key is also available on [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
 
-> 4135 C593 1D89 368E 7F32 C8ED **F4F4 A135 C022 EE12**
+> 46E6 9F69 90C1 DE8C 9791 88EE 94A4 E2D4 *6B32 AA11*
 
 You can import it directly into [GnuPG](https://gnupg.org/) into your keyring by running the following:
 
 {{< highlight console >}}
-$ gpg --keyserver pgp.mit.edu --recv-key 0xF4F4A135C022EE12
+$ curl http://keithieopia.com/uploads/timothykeith.pub.asc | gpg --import -
 {{< / highlight >}}
+
+If you're wondering why I'm not uploading my keys to a public key server such as pgp.mit.edu, the SKS software currently doesn't support Curve25519 keys yet.
+
 
 ## Elsewhere
 I use to be on social networks like Facebook and Twitter, but not anymore. Nowadays you can find me on the following sites:
