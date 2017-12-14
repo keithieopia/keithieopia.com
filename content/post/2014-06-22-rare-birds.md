@@ -1,16 +1,13 @@
 +++
-title = "About Me"
+title = "Rare Birds"
 date = "2014-06-22"
-url = "/about/"
-hidefromhome = "true"
-menu = "main"
 +++
 
 In grade school, I had a teacher that played a game called *Rare Birds* with
 each of her classes. The object was to silently write down three unusual facts
 about yourself that where not easily guessed. Once everyone was done, the
 teacher walked around and collected our slips in this ridiculously looking
-Dr. Seuss hat.  
+Dr. Seuss hat.
 
 She then would pick one from the hat to read out loud, and we had to guess who
 we thought the three facts belonged to. After a certain number of wrong guesses,
@@ -24,16 +21,4 @@ caused quite a bit of unwanted attention and others hassling me for personal
 tips to assure their future victory.
 
 My name is Timothy Keith and that is why I'm slightly uncomfortable whenever I
-see Dr. Seuss' *The Cat in the Hat* on a bookshelf. So what where my facts?
-
-1. **I am named after somebody**<br>
-   I was named Timothy, after a friend of the family's child, who was lost
-   shortly after birth.
-2. **I play the Bagpipes**<br>
-   I play the Great Highland Bagpipes and Shuttle pipes. I use to play the
-   Double Bass and occasionally I dabble with the Native American flute and Tin
-   whistle.
-3. **I have fish as pets**<br>
-   I have a 40 gallon tank stocked with different Goldfish. Back in the day, my
-   favorites included Black Skirt Tetras and Cory Catfish. Also, I currently 
-   have a red Betta in a smaller tank.
+see Dr. Seuss' *The Cat in the Hat* on a bookshelf.
