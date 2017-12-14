@@ -6,7 +6,7 @@ hidefromhome = "true"
 menu = "main"
 +++
 
-Hello, my name is Timothy Keith. But first, a poem from 1891:
+Hello, my name is Timothy Keith. But first, a poem:
 
 > I'm Nobody! Who are you?  
 > Are you &mdash; Nobody &mdash; too?  
@@ -21,9 +21,9 @@ Hello, my name is Timothy Keith. But first, a poem from 1891:
 > &mdash; Emily Dickinson *(1891)*
 
 
-## What does *Dickinson* have to do with your "About Me" page?
+## What does Dickinson have to do with your "About Me" page?
 
-A contemporary interpretation we can relate to:
+A contemporary interpretation of that poem, we all can relate to:
 <table>
     <tr>
         <td>
