@@ -1,8 +1,5 @@
 {
   "dependencies": {
-    "skeleton-css": "^2.0.4",
-    "typeface-fredericka-the-great": "^0.0.35",
-    "typeface-quattrocento": "^0.0.31",
-    "typeface-roboto": "^0.0.31"
+    "bootstrap": "^3.3.7"
   }
 }

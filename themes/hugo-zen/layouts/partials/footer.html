@@ -1,19 +1,22 @@
 
-	<footer role="contentinfo">
-		<div class="hr"></div>
-		<div class="footer-link">
-            <ul>
-			{{ with .Site.Params.email }}<li><a href="mailto:{{ . }}" target="_blank">Email</a>{{ end }}
-			{{ with .Site.Params.github }}<li><a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
-			{{ range .Site.Menus.footer }}
-            <li><a href="{{.URL}}">{{ .Name }}</a>
-            {{ end }}
-            </ul>
-		</div>
-		<div class="copyright">Copyright &copy; {{ .Site.Copyright | safeHTML }}</div>
-	</footer>
+		<footer role="contentinfo" class="row text-center">
+			<ul>
+				{{ with .Site.Params.email }}<li><a href="mailto:{{ . }}" target="_blank">Email</a>{{ end }}
+				{{ with .Site.Params.github }}<li><a href="{{ . }}" target="_blank">GitHub</a>{{ end }}
+				{{ range .Site.Menus.footer }}
+				<li><a href="{{.URL}}">{{ .Name }}</a>
+				{{ end }}
+			</ul>
 
-</div>
+			<div class="copyright">
+				Copyright &copy; {{ .Site.Copyright | safeHTML }}<br><br>
+				
+				<small><a href="https://github.com/keithieopia/keithieopia.com">{{ .Site.Data.git.tag }}</a></small>
+			</div>
+		</footer>
+
+	</div><!-- /col-md-6 -->
+</div><!-- /container -->
 
 </body>
 </html>

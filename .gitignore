@@ -1,6 +1,3 @@
 node_modules/
 public/
-themes/hugo-zen/static/js
-themes/hugo-zen/static/css/skeleton.css
-themes/hugo-zen/static/css/normalize.css
-themes/hugo-zen/static/fonts
+data/git.yml

@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 {{ .Hugo.Generator }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+
+<link href="//fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto|Quattrocento" rel="stylesheet">
+
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/skeleton.css">
-<link rel="stylesheet" href="/css/custom.css">
+
+<link rel="stylesheet" href="/css/style.css">
 <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -18,24 +19,35 @@
 <body>
 
 <div class="container">
+    <div class="col-sm-6 col-sm-offset-3">
 
-    <header role="banner"{{ if eq $isHomePage false }} class="header-compact"{{ end }}>
+        <header role="banner">
+            <div class="row">
+                <div class="{{ if eq $isHomePage false }}col-md-2{{ else }}text-center{{ end }}">
+                    <a href="/">
+                        <svg width="60px" height="60px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" alt="{{ .Site.Title }}">
+                            <circle cx="30" cy="30" r="30" class="logo-circle-border" />
+                            <circle cx="30" cy="30" r="26" class="logo-circle" />
+                            <text x="30" y="30" text-anchor="middle" alignment-baseline="central" font-size="40" class="logo-letter">K</text>
+                        </svg>
+                    </a>
+                </div>
 
-        <a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}" class="header-logo{{ if eq $isHomePage false }} header-left{{ end }}"></a>
+                {{ if eq $isHomePage false }}<div class="col-md-10">{{ end }}
 
-        {{ if eq $isHomePage false }}<div class="header-right">{{ end }}
+                <div class="row text-center">
+                    <h1>{{ .Site.Title }}</h1>
+                </div>
 
-        <h1 class="site-title">{{ .Site.Title }}</h1>
+                <nav class="row text-center">
+                    <ul>
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                        <li><a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} nav-active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+                        {{ end }}
+                    </ul>
+                </nav>
+            {{ if eq $isHomePage false }}</div>{{ end }}
+        </header>
 
-        <nav class="main-menu">
-            <ul>
-                {{ $currentPage := . }}
-                {{ range .Site.Menus.main }}
-                <li><a class="main-menu-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} menu-active{{end}}" href="{{.URL}}">{{ .Name }}</a>
-                {{ end }}
-            </ul>
-        </nav>
-
-        {{ if eq $isHomePage false }} </div> {{ end }}
-    </header>
 
