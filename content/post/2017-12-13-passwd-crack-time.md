@@ -5,9 +5,9 @@ date = "2017-12-13"
 
 These time ranges are valid as of 2018 for attackers that might have stolen a database from a third-party website you use.
 
-<span style="float: right; text-align: left; width: 15em; margin-left: 1em">
-    <img src="/images/password-post/dennis-nedry.png">
-</span>
+
+<img src="/images/password-post/dennis-nedry.png" class="img-responsive img-thumb pull-right">
+
 
 It assumes the attacker is using a cloud platform like [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services) and your password has been hashed and salted by the website. You, on the other hand, should assume the website's security was programmed by troglodytes like the guy on the left.
 
@@ -27,7 +27,7 @@ The below chart assumes the attacker knows what dictionary you used and the dict
 | 4 words         | 7 hours       |
 | 5 words         | 8 years       |
 
-<small style="float: right">source: [reddit](https://www.reddit.com/r/techsnap/comments/18ezb6/correct_horse_battery_staple_really_a_strong/c8ede7r/) *yeh, I know&hellip;*</small>
+<small>source: [reddit](https://www.reddit.com/r/techsnap/comments/18ezb6/correct_horse_battery_staple_really_a_strong/c8ede7r/) *yeh, I know&hellip;*</small>
 
 
 ## Passwords Crack Time
@@ -44,7 +44,7 @@ Alphanumeric means the password is made up of uppercase and lowercase letters, a
 | 12 characters	  | 1 year        | 2 centuries            |
 | 13 characters	  | 64 years      | &mdash;                |
 
-<small style="float: right">source: [Jeff Atwood](https://blog.codinghorror.com/your-password-is-too-damn-short/)</small>
+<small>source: [Jeff Atwood](https://blog.codinghorror.com/your-password-is-too-damn-short/)</small>
 
 
 ## Obligatory don't be an Idiot
@@ -55,9 +55,9 @@ You should assume the attacker knows a lot about you; *case and point: Facebook*
 - Your parent's, friend's, spouse's, dog's: name, birthday, etc.
 - Sequences like 12345
 
-<div style="width: 25em; margin: 1em auto">
-    <img src="/images/password-post/12345.gif">
-</div>
+
+<img src="/images/password-post/12345.gif" class="img-responsive img-thumb">
+
 
 - Any of the above, but combined; adding guessable things together does not make them un-guessable
 - Passwords you've used before; they've [probably already been breached](https://haveibeenpwned.com)
