@@ -24,19 +24,11 @@ Hello, my name is Timothy Keith. But first, a poem:
 ## What does Dickinson have to do with your "About Me" page?
 
 A contemporary interpretation of that poem, we all can relate to:
-<table>
-    <tr>
-        <td>
-            <img src="/images/about/perfect.png">
-        </td>
-        <td>
-            <img src="/images/about/reality.png">
-        <td>
-    </tr><tr>
-        <td style="text-align: center"><em>Us, on Social Media</em></td>
-        <td style="text-align: center"><em>Us, in Real Life</em></td>
-    </tr>
-</table>
+
+| Us, in Real Life&hellip; | Us, on Social Media&hellip; |
+|:------------------------:|:---------------------------:|
+| <img src="/images/about/perfect.png" class="img-responsive img-thumb"> | <img src="/images/about/reality.png" class="img-responsive img-thumb"> |
+
 
 Everyone usually agrees with the adage *"nobody's perfect"*, but contrary to that, we feel great social pressure to paint an idealised version of ourselves online.
 
