@@ -20,7 +20,7 @@ serve:
 
 
 push: build
-> rsync -avz -e ssh --progress --no-perms --no-owner --no-group --no-times public/ timothy@keithieopia.com:/srv/htdocs
+> rsync -avz -e ssh --progress --no-perms --no-owner --no-group --no-times public/ timothy@keithieopia.com:/srv/htdocs/keithieopia.com
 
 git:
 > echo "name: git" > data/git.yml
