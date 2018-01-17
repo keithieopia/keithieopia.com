@@ -13,7 +13,7 @@ If you prefer not to use Google, I also have an alternative email at: [diomhair@
 
 
 ## GPG / OpenPGP / PGP
-If you're privacy conscious, feel free to encrypt any messages using my [public key](/uploads/timothykeith.pub.asc). If you prefer, my key is also available on [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
+If you're privacy conscious, feel free to encrypt any messages using my [public key](http://uploads.keithieopia.com/timothykeith.pub.asc). If you prefer, my key is also available on [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
 
 > 46E6 9F69 90C1 DE8C 9791 88EE 94A4 E2D4 *6B32 AA11*
 
