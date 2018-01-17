@@ -23,4 +23,4 @@ pygmentsstyle      = "autumn"
   url = "/"
 [[menu.main]]
   name = "Git"
-  url = "http://git.keithieopia.com/"
+  url = "http://git.keithieopia.com/explore/repos"
