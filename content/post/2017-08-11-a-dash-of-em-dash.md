@@ -3,12 +3,10 @@ title = "A Dash of En-Dash"
 date = "2017-08-11"
 +++
 
-<span style="float: right; text-align: left; margin-left: 1em">
-    <img src="/images/dash-post/mrs-dash.png">
-</span>
+
+<img src="/images/dash-post/mrs-dash.png">
 
 There are two types of people in this world: those that have a complete spice rack in the kitchen and those that have a bottle of all-purpose seasoning on the dining table. Likewise, what people call a dash is actually an en-dash, em-dash, or a hyphen. To be clear, this post has nothing to do with Mrs. Dash.
-
 
 ## Hyphens
 
