@@ -3,9 +3,9 @@ title = "Footprints in the Public Domain"
 date = "2018-02-10"
 +++
 
-For those that have never heard of it, [Footprints in the Sand](https://en.wikipedia.org/wiki/Footprints_%28poem%29) is an popular religious poem with a disputed origin ultimately resulting in a [lawsuit](http://www.washingtonpost.com/wp-dyn/content/article/2008/05/31/AR2008053101998.html). I had wanted to feature this beautiful poem on decorative sign, but found the ugly nature of it's legal status to be off-putting.
+<img src="/images/footprints-post/footprints-sign.jpg">
 
-<img src="/images/footprints-post/footprints-sign.jpg" class="img-responsive img-thumb pull-right">
+For those that have never heard of it, [Footprints in the Sand](https://en.wikipedia.org/wiki/Footprints_%28poem%29) is an popular religious poem with a disputed origin ultimately resulting in a [lawsuit](http://www.washingtonpost.com/wp-dyn/content/article/2008/05/31/AR2008053101998.html). I had wanted to feature this beautiful poem on decorative sign, but found the ugly nature of it's legal status to be off-putting.
 
 After some research and legal advice, I found that two doctrines called [fair-use](https://en.wikipedia.org/wiki/Fair_use) and [transformation](https://en.wikipedia.org/wiki/Transformation_%28law%29) would allowed me to use *Footprints in the Sand*, so long as it was my own take on it. There's two or three versions (all disputed), so I read all three, a paragraph at a time, and wrote down what I remembered.
 
