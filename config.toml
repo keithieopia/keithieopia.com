@@ -1,26 +1,32 @@
 languageCode = "en-us"
 title = "Keithieopia"
 baseurl = "http://keithieopia.com/"
-copyright = "MMVI &ndash; MMXVII by <a href='/contact'>Timothy Keith</a>.<br>Some Rights Reserved, see the <a href='/license'>license</a>."
 
-theme = "hugo-zen"
+theme = "solomons"
 
 pygmentsuseclasses = false
 pygmentsstyle      = "autumn"
 
 [params]
-  logo      = "/images/logo.png"
-  email     = "timothykeith@gmail.com"
-  github    = "https://github.com/keithieopia/"
+  author      = "Timothy Keith"
+  email       = "timothykeith@gmail.com"
+  createdate  = "MMVI"
+  currentdate = "MMXVIII"
   
+[[menu.footer]]
+  name = "GitHub"
+  url  = "https://github.com/keithieopia/"
+[[menu.footer]]
+  name = "License"
+  url  = "/license/"
 [[menu.footer]]
   name = "Colophon"
   url  = "/colophon/"
 
 [[menu.main]]
   name = "Blog"
-  weight = -100
   url = "/"
+  weight = -100
 [[menu.main]]
   name = "Git"
   url = "http://git.keithieopia.com/explore/repos"

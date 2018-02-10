@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<main role="main">
+{{ range .Data.Pages }}
+		<div id="entry-list">
+			<h1><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></h1>
+			<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
+		</div>
+{{ end }}
+</main>
+
+{{ partial "footer/site-footer.html" . }}

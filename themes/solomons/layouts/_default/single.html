@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+<!-- layout: single.html -->
+<main role="main">
+	<article>
+		<header class="text-center">
+			<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+			<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
+		</header>
+		
+		{{ .Content }}
+	</article>
+</main>
+
+{{ partial "footer/site-footer.html" . }}

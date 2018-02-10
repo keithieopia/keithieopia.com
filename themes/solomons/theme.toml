@@ -1,0 +1,11 @@
+name = "Solomons"
+license = "MIT"
+licenselink = "https://github.com/keithieopia/keithieopia.com/blob/master/LICENSE.md"
+description = "Solomons is a minimal hugo theme."
+tags = ["blog"]
+features = ["blog", "themes"]
+min_version = 0.13
+
+[author]
+    name = "Timothy Keith"
+    homepage = "http://keithieopia.com/"

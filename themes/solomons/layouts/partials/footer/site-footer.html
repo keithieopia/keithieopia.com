@@ -1,0 +1,28 @@
+			</div><!-- /col-md-8 -->
+			
+			<footer class="offset-md-3 col-md-6 text-center">
+				<nav>
+					<ul>
+						<li><a href="mailto:{{ .Site.Params.email }}" target="_blank">Email</a></li>
+
+					{{ range .Site.Menus.footer }}
+						<li><a href="{{.URL}}">{{ .Name }}</a></li>
+					{{ end }}
+					</ul>
+				</nav>
+				
+				<div class="copyright">
+					Copyright &copy; {{ .Site.Params.createdate }} &ndash; {{ .Site.Params.currentdate }} 
+					by <a href='/contact'>{{ .Site.Params.author }}</a>. <em><a href="/license">Some rights reserved</a></em>.<br><br>
+					
+					Last Updated on <span title="{{ .Site.Data.git.date }}">{{ .Site.Data.git.prettydate }}</span><br>
+					<a href="https://github.com/keithieopia/keithieopia.com">{{ .Site.Data.git.tag }}</a>
+				</div>
+			</footer>
+			
+			
+		</div><!-- /container -->
+			
+		{{ partial "footer/scripts.html" . }}
+    </body>
+</html>
