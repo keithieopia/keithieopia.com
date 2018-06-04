@@ -1,18 +1,24 @@
 YARN := $(shell command -v yarn 2>/dev/null)
 HUGO := $(shell command -v hugo 2>/dev/null)
+INSTALLED := $(shell yarn check 2>/dev/null)
 
 export PATH := node_modules/npm-sass/bin:$(PATH)
 
-deps:
+precheck:
 ifndef YARN
 	$(error "yarn is not installed")
 endif
 ifndef HUGO
     $(error "hugo is not installed")
 endif
+ifndef INSTALLED
+	yarn install
+endif
+
+update: precheck
 	yarn upgrade
 
-scss:
+scss: precheck
 	npm-sass themes/solomons/static/css/style.scss > themes/solomons/static/css/style.css
 
 build: scss git
