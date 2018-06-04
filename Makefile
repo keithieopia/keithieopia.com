@@ -33,6 +33,7 @@ push: build
 	rsync -avz -e ssh --progress --no-perms --no-owner --no-group --no-times public/ keithieopia:/srv/htdocs/keithieopia.com
 
 git:
+	-mkdir -p data
 	echo "name: git" > data/git.yml
 	echo -n "ref: " >> data/git.yml
 	git rev-parse HEAD >> data/git.yml
