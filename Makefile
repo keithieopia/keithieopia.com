@@ -1,8 +1,14 @@
 YARN := $(shell command -v yarn 2>/dev/null)
+HUGO := $(shell command -v hugo 2>/dev/null)
+
+export PATH := node_modules/npm-sass/bin:$(PATH)
 
 deps:
 ifndef YARN
 	$(error "yarn is not installed")
+endif
+ifndef HUGO
+    $(error "hugo is not installed")
 endif
 	yarn upgrade
 
