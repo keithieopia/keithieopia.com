@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference Desk on Keithieopia</title>
+    <link>http://keithieopia.com/reference/</link>
+    <description>Recent content in Reference Desk on Keithieopia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://keithieopia.com/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dice Passwords</title>
+      <link>http://keithieopia.com/reference/dice-passwd/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/dice-passwd/</guid>
+      <description>Roll two standard 6-sided dice (2d6) and use the following chart to convert the roll to A-Z or 0-9.
+             &amp;#9856;&amp;#9856;
+0 &amp;#9857;&amp;#9856;
+1 &amp;#9858;&amp;#9856;
+2 &amp;#9859;&amp;#9856;
+3 &amp;#9860;&amp;#9856;
+4 &amp;#9861;&amp;#9856;
+5   &amp;#9856;&amp;#9857;
+6 &amp;#9857;&amp;#9857;
+7 &amp;#9858;&amp;#9857;
+8 &amp;#9859;&amp;#9857;
+9 &amp;#9860;&amp;#9857;
+A &amp;#9861;&amp;#9857;
+B   &amp;#9856;&amp;#9858;
+C &amp;#9857;&amp;#9858;
+D &amp;#9858;&amp;#9858;
+E &amp;#9859;&amp;#9858;
+F &amp;#9860;&amp;#9858;</description>
+    </item>
+    
+    <item>
+      <title>First 100,000 digits of Pi</title>
+      <link>http://keithieopia.com/reference/pi/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/pi/</guid>
+      <description>Below are the first 100,000 digits of &amp;pi;. Every digit after the decimal point has been divided into groups of 10 digits to help with readability. Using the first n values of &amp;pi; is always better than using fractional approximations of &amp;pi;. 22&amp;frasl;7 is equivalent to the first 3 digits of &amp;pi; and 355&amp;frasl;113 the first 7 digits. While these substitutions for &amp;pi; are commonly used, they can significantly throw off results.</description>
+    </item>
+    
+    <item>
+      <title>Latin Alphabet Letter Origins</title>
+      <link>http://keithieopia.com/reference/letter-origins/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/letter-origins/</guid>
+      <description>This page lists the known origins of each of the alphabet letters. Most people know the English language uses the Latin alphabet as it&amp;rsquo;s a descendant of Latin. We can actually trace the providence even farther: Latin evolved from Greek, Greek from Phoenician, which in turn was derived from Egyptian hieroglyphics.
+Table of Contents Letters inside guillemets, like &amp;lsaquo;this&amp;rsaquo;, means that it&amp;rsquo;s relatively new or used semi-exclusively in modern English.</description>
+    </item>
+    
+    <item>
+      <title>Letters Frequencies</title>
+      <link>http://keithieopia.com/reference/letter-frequency/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/letter-frequency/</guid>
+      <description>The left table column contains each letter of the alphabet ordered by the frequency it occurred. The right column contains the most common English digraphs ordered by occurrence. Both columns are from a sample of 40,000 different English words.
+This information is from a Cornell University&amp;rsquo;s Math Explorers&amp;rsquo; Club (supported partly by the National Science Foundation). No further information is available on how these were calculated generated, but it corresponds closely with several cryptography textbooks I own.</description>
+    </item>
+    
+    <item>
+      <title>Network Wiring</title>
+      <link>http://keithieopia.com/reference/network-wiring/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/network-wiring/</guid>
+      <description>Category 5 cable uses 4 twisted-pair cables, for a total of 8 individual wires. The cable supports a maximum distance of 100 meters (328 feet), although that distance may be extended if a repeater is used (in computer networking: a router or switch). The cable should not be bent more than 4 times the diameter of the cable and bundled with no more than 100 other Cat-5 cables. The maximum safe operating temperature is 45&amp;deg;C (113&amp;deg;F).</description>
+    </item>
+    
+    <item>
+      <title>Prime Numbers: 1 – 100,000</title>
+      <link>http://keithieopia.com/reference/primes/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/primes/</guid>
+      <description>Below are the the first 9593 prime numbers, or all the primes between 1 to 100,000. These where generated by a PHP script I wrote as a programming exercise. Total execution time for the script on my old laptop was 4 minutes and 16 seconds.
+Index  1 – 997 1009 – 9973 10007 – 19997 20011 – 29989 30011 – 39989 40009 – 49999 50021 – 59999 60013 – 69997 70001 – 79999 80021 – 80021 90001 – 99991  1 – 997    1 2 3 5 7 11  13 17 19 23 29 31  37 41 43 47 53 59  61 67 71 73 79 83  89 97 101 103 107 109  113 127 131 137 139 149  151 157 163 167 173 179  181 191 193 197 199 211  223 227 229 233 239 241  251 257 263 269 271 277  281 283 293 307 311 313  317 331 337 347 349 353  359 367 373 379 383 389  397 401 409 419 421 431  433 439 443 449 457 461  463 467 479 487 491 499  503 509 521 523 541 547  557 563 569 571 577 587  593 599 601 607 613 617  619 631 641 643 647 653  659 661 673 677 683 691  701 709 719 727 733 739  743 751 757 761 769 773  787 797 809 811 821 823  827 829 839 853 857 859  863 877 881 883 887 907  911 919 929 937 941 947  953 967 971 977 983 991  997</description>
+    </item>
+    
+    <item>
+      <title>Squares, Cubes, and Roots</title>
+      <link>http://keithieopia.com/reference/squares/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/squares/</guid>
+      <description>Below are tables listing the squared and cube values for numbers 1 through 1000. The table can also be used to do find the square root of 1 to 1000000, and the cube root of 1 to 1000000000.
+I generated the numbers as an experiment to find the best way to chop a long list into columns so it fits better on a webpage.
+Index  1 – 99 100 – 199 200 – 299 300 – 399 400 – 499 500 – 599 600 – 699 700 – 799 800 – 899 900 – 1000  1 – 99    i&amp;nbsp; i2 i3  1 1 1  2 4 8  3 9 27  4 16 64  5 25 125  6 36 216  7 49 343  8 64 512  9 81 729  10 100 1000  11 121 1331  12 144 1728  13 169 2197  14 196 2744  15 225 3375  16 256 4096  17 289 4913  18 324 5832  19 361 6859  20 400 8000  21 441 9261  22 484 10648  23 529 12167  24 576 13824  25 625 15625  26 676 17576  27 729 19683  28 784 21952  29 841 24389  30 900 27000  31 961 29791  32 1024 32768  33 1089 35937  34 1156 39304  35 1225 42875  36 1296 46656  37 1369 50653  38 1444 54872  39 1521 59319  40 1600 64000  41 1681 68921  42 1764 74088  43 1849 79507  44 1936 85184  45 2025 91125  46 2116 97336  47 2209 103823  48 2304 110592  49 2401 117649  50 2500 125000  51 2601 132651  52 2704 140608  53 2809 148877  54 2916 157464  55 3025 166375  56 3136 175616  57 3249 185193  58 3364 195112  59 3481 205379  60 3600 216000  61 3721 226981  62 3844 238328  63 3969 250047  64 4096 262144  65 4225 274625  66 4356 287496  67 4489 300763  68 4624 314432  69 4761 328509  70 4900 343000  71 5041 357911  72 5184 373248  73 5329 389017  74 5476 405224  75 5625 421875  76 5776 438976  77 5929 456533  78 6084 474552  79 6241 493039  80 6400 512000  81 6561 531441  82 6724 551368  83 6889 571787  84 7056 592704  85 7225 614125  86 7396 636056  87 7569 658503  88 7744 681472  89 7921 704969  90 8100 729000  91 8281 753571  92 8464 778688  93 8649 804357  94 8836 830584  95 9025 857375  96 9216 884736  97 9409 912673  98 9604 941192  99 9801 970299</description>
+    </item>
+    
+    <item>
+      <title>The Greek Alphabet</title>
+      <link>http://keithieopia.com/reference/greek/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/greek/</guid>
+      <description>  Alphabet Numbers    UppercaseLowercaseName  &amp;Alpha;&amp;alpha;Alpha  &amp;Beta;&amp;beta;Beta  &amp;Gamma;&amp;gamma;Gamma  &amp;Delta;&amp;delta;Delta  &amp;Epsilon;&amp;epsilon;Epsilon  &amp;Zeta;&amp;zeta;Zeta  &amp;Eta;&amp;eta;Eta  &amp;Theta;&amp;theta;Theta  &amp;Iota;&amp;iota;Iota  &amp;Kappa;&amp;kappa;Kappa  &amp;Lambda;&amp;lambda;Lambda  &amp;Mu;&amp;mu;Mu  &amp;Nu;&amp;nu;Nu  &amp;Xi;&amp;xi;Xi  &amp;Omicron;&amp;omicron;Omicron  &amp;Pi;&amp;pi;Pi  &amp;Rho;&amp;rho;Rho  &amp;Sigma;&amp;sigma; / &amp;sigmaf;Sigma  &amp;Tau;&amp;tau;Tau  &amp;Upsilon;&amp;upsilon;Upsilon  &amp;Phi;&amp;phi;Phi  &amp;Chi;&amp;chi;Chi  &amp;Psi;&amp;psi;Psi  &amp;Omega;&amp;omega;Omega      ValueLetterName  1&amp;Alpha;&amp;#884; / &amp;alpha;&amp;#884;Alpha  2&amp;Beta;&amp;#884; / &amp;beta;&amp;#884;Beta  3&amp;Gamma;&amp;#884; / &amp;gamma;&amp;#884;Gamma  4&amp;Delta;&amp;#884; / &amp;delta;&amp;#884;Delta  5&amp;Epsilon;&amp;#884; / &amp;epsilon;&amp;#884;Epsilon  6&amp;sigmaf;&amp;#884;Digamma  7&amp;Zeta;&amp;#884; / &amp;zeta;&amp;#884;Zeta  8&amp;Eta;&amp;#884; / &amp;eta;&amp;#884;Eta  9&amp;Theta;&amp;#884; / &amp;theta;&amp;#884;Theta  10&amp;Iota;&amp;#884; / &amp;iota;&amp;#884;Iota  20&amp;Kappa;&amp;#884; / &amp;kappa;&amp;#884;Kappa  30&amp;Lambda;&amp;#884; / &amp;lambda;&amp;#884;Lambda  40&amp;Mu;&amp;#884; / &amp;mu;&amp;#884;Mu  50&amp;Nu;&amp;#884; / &amp;nu;&amp;#884;Nu  60&amp;Xi;&amp;#884; / &amp;xi;&amp;#884;Xi  70&amp;Omicron;&amp;#884; / &amp;Omicron;&amp;#884;Omicron  80&amp;Pi;&amp;#884; / &amp;pi;&amp;#884;Pi  90&amp;#990;&amp;#884;Koppa  100&amp;Rho;&amp;#884; / &amp;rho;&amp;#884;Rho  200&amp;Sigma;&amp;#884; / &amp;sigma;&amp;#884;Sigma  300&amp;Tau;&amp;#884; / &amp;tau;&amp;#884;Tau  400&amp;Upsilon;&amp;#884; / &amp;upsilon;&amp;#884;Upsilon  500&amp;Phi;&amp;#884; / &amp;phi;&amp;#884;Phi  600&amp;Chi;&amp;#884; / &amp;chi;&amp;#884;Chi  700&amp;Psi;&amp;#884; / &amp;psi;&amp;#884;Psi  800&amp;Omega;&amp;#884; / &amp;omega;&amp;#884;  900&amp;#992;&amp;#884;Sampi      </description>
+    </item>
+    
+    <item>
+      <title>Top 10,000 Passwords</title>
+      <link>http://keithieopia.com/reference/top-passwords/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/top-passwords/</guid>
+      <description>Below is a table of the top 10,000 passwords 98.8% of all users choose. The data is from Mark Burnett who in 2011 analyzed a list of over 6,000,000 unique username and passwords he compiled from various publicly available sources such as Google searches. While the data is slightly dated, the many data breaches since then unfortunately show that not much has changed.
+I have taken Mr. Burnett&amp;rsquo;s list and slightly modified it so that each password shows it&amp;rsquo;s probability of use versus a simple count of how many users chose that particular password.</description>
+    </item>
+    
+    <item>
+      <title>Wiring a RJ31X Jack for a Home Alarm System</title>
+      <link>http://keithieopia.com/reference/rj31x/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://keithieopia.com/reference/rj31x/</guid>
+      <description>A RJ31X is nothing more than a specially wired RJ45 plug that allows a security system to share the telephone line with standard household phones instead of paying for an additional telephone line just for the security system. In the event of an alarm, if the phone is in use or off the hook, the RJ31X disconnects the house phones temporarily so the the security system can take over the phone line and make the call to the alarm company.</description>
+    </item>
+    
+  </channel>
+</rss>
