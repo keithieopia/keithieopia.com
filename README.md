@@ -7,7 +7,7 @@
 
 This is the source code for my personal website, [http://keithieopia.com](https://keithieopia.com). The final HTML & CSS is excluded; the site is statically generated on the fly by [Hugo](http://gohugo.io/), a static site generator written in Go. See the Development section for details on how to do this.
 
-The site has been online since 2006 and open-sourced since 2013. Since then, it's back end has undergone many revisions; see the [CHANGELOG.md](https://github.com/keithieopia/keithieopia.com/blob/master/CHANGELOG.md) for details.
+The site has been online since 2006 and open-sourced since 2013. Since then, it's back end has undergone many revisions; see the [CHANGELOG.md](https://gitlab.com/keithieopia/keithieopia.com/blob/master/CHANGELOG.md) for details.
 
 
 ## Development
@@ -20,7 +20,7 @@ The site has been online since 2006 and open-sourced since 2013. Since then, it'
 
 
 ## Credits
-See the [humans.txt](https://github.com/keithieopia/keithieopia.com/blob/master/static/humans.txt) file, which lists in detail all the third party components this site uses. Alternatively, the site's [colophon](https://keithieopia.com/colophon/) provides a high-level overview with a description of the server environment.
+See the [humans.txt](https://gitlab.com/keithieopia/keithieopia.com/blob/master/static/humans.txt) file, which lists in detail all the third party components this site uses. Alternatively, the site's [colophon](https://keithieopia.com/colophon/) provides a high-level overview with a description of the server environment.
 
 
 
@@ -31,18 +31,18 @@ I would love your feedback! If you found any of these code useful, please drop m
 
 To import it into your keyring:
 ```console
-$ curl https://gist.githubusercontent.com/keithieopia/434f3575ec1f020d6589a4c01dc0847e/raw/2e0749f2966ff501ee28797a926229c081f7e652/timothykeith.pub.asc | gpg --import -
+$ curl https://gitlab.com/snippets/1720975/raw | gpg --import -
 ```
 
 **NOTE:** SKS Public Key Servers (such as pgp.mit.edu) don't support Curve25519 keys yet. In the meantime, consider using [Keybase.io](https://keybase.io/); my username is [timothykeith](https://keybase.io/timothykeith).
 
 ### Bug Reports
-Submit bug reports via GitHub's [Issue Tracker](https://github.com/keithieopia/keithieopia.com/issues)
+Submit bug reports via GitLab's [Issue Tracker](https://gitlab.com/keithieopia/keithieopia.com/issues/new)
 
 
 ## Author
 Copyright &copy; 2013 – 2017 Timothy Keith, except where otherwise noted.
 
-Licensed under the [MIT license](https://github.com/keithieopia/keithieopia.com/blob/master/LICENSE).
+Licensed under the [MIT license](https://gitlab.com/keithieopia/keithieopia.com/blob/master/LICENSE).
 
 *This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.*
