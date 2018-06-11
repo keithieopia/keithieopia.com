@@ -10,8 +10,7 @@ pygmentsstyle      = "autumn"
 [params]
   author      = "Timothy Keith"
   email       = "timothykeith@gmail.com"
-  createdate  = "MMVI"
-  currentdate = "MMXVIII"
+  source      = "https://github.com/keithieopia/keithieopia.com"
   
 [[menu.footer]]
   name = "GitHub"

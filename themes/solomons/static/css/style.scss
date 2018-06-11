@@ -179,17 +179,11 @@ footer {
 	padding: 1em;
 	border-top: 2px solid $link-glow;
 
+	font-family: sans;
 	color: $text-color-light;
 	
 	padding: 1em;
 	
-	.copyright {
-		margin-top: 2em;
-	
-		font-family: sans;
-		font-size: .5em;
-	}
-
 	ul {
 		list-style: none;
 		margin: 0;
@@ -207,6 +201,12 @@ footer {
 
         li:last-child:after { content: none; }
     }
+
+	.copyright {
+		margin-top: 2em;
+	
+		font-size: .75em;
+	}
 }
 
 
