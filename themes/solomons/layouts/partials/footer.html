@@ -12,7 +12,7 @@
 				</nav>
 				
 				<div class="copyright">
-					Content <a href="/license" title="Creative Commons Attribution 4.0 International (CC BY 4.0)"><i class="fab fa-creative-commons"></i></a> 
+					Content <a href="/license" rel="license" title="Creative Commons Attribution 4.0 International (CC BY 4.0)"><i class="fab fa-creative-commons"></i></a> 
 					<a rel="author" href='/contact'>{{ .Site.Params.author }}</a><br>
 
 					Last Updated on <span title="{{ .Site.Data.git.date }}">{{ .Site.Data.git.prettydate }}</span><br><br>
@@ -26,7 +26,7 @@
 			
 		</div><!-- /container -->
 			
-		{{ partial "footer/scripts.html" . }}
+		{{ partial "scripts.html" . }}
     </body>
 </html>
 
