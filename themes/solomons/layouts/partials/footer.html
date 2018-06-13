@@ -3,10 +3,14 @@
 			<footer class="offset-md-3 col-md-6 text-center">
 				<nav class="menu">
 					<ul>
-						<li><a href="mailto:{{ .Site.Params.email }}" target="_blank">Email</a></li>
+						<li>
+							<a href="mailto:{{ .Site.Params.email }}" target="_blank">Email</a>
+						</li>
 
 					{{ range .Site.Menus.footer }}
-						<li><a href="{{.URL}}">{{ .Name }}</a></li>
+						<li>
+							<a href="{{.URL}}">{{ .Name }}</a>
+						</li>
 					{{ end }}
 					</ul>
 				</nav>

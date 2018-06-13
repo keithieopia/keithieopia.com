@@ -128,9 +128,8 @@ footer {
   margin-top: 4em;
   padding: 1em;
   border-top: 2px solid #d97e4c;
-  font-family: "Roboto", sans;
-  color: #9b7762;
-  padding: 1em; }
+  font-family: "Roboto", sans-serif;
+  color: #9b7762; }
   footer .copyright {
     margin-top: 2em;
     font-size: .6em; }
