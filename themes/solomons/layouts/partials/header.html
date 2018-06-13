@@ -8,7 +8,7 @@
         
         <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 
-	<link href="//fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -20,14 +20,10 @@
     <body>
 	<header class="text-center">
 	    <a href="/">
-		<svg width="60px" height="60px" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" alt="Keithieopia">
-		    <circle cx="30" cy="30" r="30" class="logo-border" />
-		    <circle cx="30" cy="30" r="26" class="logo-body" />
-		    <text x="30" y="30" text-anchor="middle" alignment-baseline="central" font-size="40" class="logo-letter">K</text>
-		</svg>
+		<div class="logo">K</div>
 	    </a>
 
-	    <nav>
+	    <nav class="menu">
 		<ul>
 		    {{ $currentPage := . }}
 		    {{ range .Site.Menus.main }}

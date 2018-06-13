@@ -1,11 +1,27 @@
-$text-color: #454545;
-$text-color-light: lighten($text-color, 25%);
+/*
+  Color Palette
+  -----------------------
+  Peru            #d97e4c
+  Dark Slate Gray #1b242d
+  Dim Gray        #4f4a42
+  Rosy Brown      #9b7762
+  Gainsboro       #dcdbda
+*/
 
-$highlight-color: #f5a991;
+$orange: #d97e4c;
+$white:  #dcdbda;
+$black:  #1b242d;
+$brown:  #4f4a42;
+$tan:    #9b7762;
 
-$link-color: darken(#f5a991, 25%); //#856a6b;
-$link-glow: #f5a991;
-$link-glow-hover: #fdedbf;
+$highlight-color: $orange;
+$text-color: $black;
+$link-color: $orange;
+$link-glow: lighten($link-color, 10%);
+$symbol-color: $tan;
+$fineprint-color: $tan;
+
+
 
 html, body {
     min-height: calc(100vh - 10px);
@@ -174,56 +190,39 @@ article {
 		
 }
 
+.logo {
+    width: 80px;
+    height: 80px;
+    
+    box-shadow: 0 0 0 5px rgba($highlight-color, 0.5); 
+    border-radius: 80px;
+    
+    font-size: 80px;
+    color: $white;
+    line-height: 80px;
+    text-align: center;
+    background: $highlight-color;
+    
+    margin: 0 auto .5em auto;
+}
+
 footer {
 	margin-top: 4em;
 	padding: 1em;
-	border-top: 2px solid $link-glow;
+	border-top: 2px solid $highlight-color;
 
-	font-family: sans;
-	color: $text-color-light;
+	font-family: "Roboto", sans;
+	color: $fineprint-color;
 	
 	padding: 1em;
-	
-	ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-
-        li {
-            display: inline-block;
-        }
-
-        li:after {
-            content: "\00A0\26AC"; // \2022";
-            color: lighten($text-color, 25%);
-            padding: 0 .5em;
-        }
-
-        li:last-child:after { content: none; }
-    }
 
 	.copyright {
 		margin-top: 2em;
-	
-		font-size: .75em;
+		font-size: .6em;
 	}
 }
 
-
-.logo-border {
-	fill: $highlight-color;
-	opacity: 0.5;
-}
-
-.logo-body {
-	fill: $highlight-color;
-}
-
-.logo-letter {
-	fill: lighten($highlight-color, 25%)
-}
-
-nav {
+.menu {
 	font-family: "Roboto", sans-serif;
 	font-size: .8em;
 	
@@ -234,12 +233,12 @@ nav {
 
 	ul:before {
 		content: "\2039";
-		color: $text-color-light; 
+		color: $symbol-color; 
     }
     
 	ul:after {
 		content: "\203A";
-		color: $text-color-light; 
+		color: $symbol-color; 
     }
 	
 	li {
@@ -248,7 +247,7 @@ nav {
 	
 	li:after {
 		content: "\2022\0020";
-		color: $text-color-light; 
+		color: $symbol-color; 
     }
 	
 	li:last-child:after {
@@ -259,7 +258,3 @@ nav {
 		font-weight: bold;
 	}
 }
-
-
-
-
