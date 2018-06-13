@@ -10,12 +10,12 @@ I enjoy reading about other countries and cultures, so it's no surprise I freque
 >  
 > &mdash; Myself, during a U.S. Q&A for Europeans
 
-<img src="/images/old-bay-post/maps/usa.png">
+<img src="/img/old-bay-post/maps/usa.png">
 
 For non-Americans, it's best to think of U.S. states as independent countries with their own law and culture. Consider *United States* analogous to the European Union. For instance, there's a commonly believed trope that practically all Americans own guns. The state of New Mexico fits this stereotype well, as a lot of its residents can be seen freely walking around with a gun holster on their belt. 
 
 
-<img src="/images/old-bay-post/maps/maryland.png">
+<img src="/img/old-bay-post/maps/maryland.png">
 
 In the state of Maryland, that's basically illegal if you're not a police officer. Our gun laws are strict and a sudden change in them would probably cause mass panic and hysteria. That has nothing to do with my personal beliefs, it's just the culture of the state. As you probably guessed, I live there. 
 
@@ -24,9 +24,9 @@ Even within Maryland, there's regions with noticeable different culture, accents
 
 Even food within the U.S. can cause issues if introduced to a different region. There's a Maryland seasoning called [Old Bay](https://en.wikipedia.org/wiki/Old_Bay_Seasoning) that's officially used on seafood. In practice, we put it on everything: hamburgers, french fries, corn on the cob, fried chicken, etc. It's so pervasive that most restaurants by include a can on the table by default.
 
-<img src="/images/old-bay-post/old-bay.png">
+<img src="/img/old-bay-post/old-bay.png">
 
-I let a few of my Pennsylvania friends to try it on Boardwalk Fries, however *Old Bay* is somewhat of an acquired taste (it's made out of paprika, celery salt, and mustard among other things). I would not be exaggerating if I said one friend got physically sick and the rest where convinced I was lying about it's popularity in Maryland. 
+I let a few of my Pennsylvania friends to try it on Boardwalk Fries, however *Old Bay* is somewhat of an acquired taste (it's made out of paprika, celery salt, and mustard among other things). I would not be exaggerating if I said one friend got physically sick and the rest where convinced I was lying about it's popularity in Maryland.
 
 Expanding our scope illustrates America's differences even clearer. People from the *Deep South* (think Texas, Mississippi, Louisiana, etc.) probably wouldn't understand a *New Englander* (New York, Massachusetts, Maine, etc) if they asked for "[Pop](http://popvssoda.com/)". People moving from the *West Coast* to *East Coast* (or vice versa) are worse off, as they typically experience cultural shock and difficulty fitting in to the same extent of someone who has moved to a foreign country.
 
@@ -40,7 +40,7 @@ Visitors often common about how the U.S. has flags everywhere. It's absolutely t
 
 | Location       | Flag                                                        |
 | -------------- | ----------------------------------------------------------- |
-| Calvert County | [![Calvert County](/images/old-bay-post/flags/calvert.png)](https://flagspot.net/flags/us-md-cv.html) |
-| Maryland       | [![Maryland](/images/old-bay-post/flags/maryland.png)](https://en.wikipedia.org/wiki/Flag_of_Maryland) |
-| New Mexico     | [![New Mexico](/images/old-bay-post/flags/new-mexico.png)](https://en.wikipedia.org/wiki/Flag_of_New_Mexico) |
-| Pennsylvania   | [![Pennsylvania](/images/old-bay-post/flags/pennsylvania.png)](https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Pennsylvania) |
+| Calvert County | [![Calvert County](/img/old-bay-post/flags/calvert.png)](https://flagspot.net/flags/us-md-cv.html) |
+| Maryland       | [![Maryland](/img/old-bay-post/flags/maryland.png)](https://en.wikipedia.org/wiki/Flag_of_Maryland) |
+| New Mexico     | [![New Mexico](/img/old-bay-post/flags/new-mexico.png)](https://en.wikipedia.org/wiki/Flag_of_New_Mexico) |
+| Pennsylvania   | [![Pennsylvania](/img/old-bay-post/flags/pennsylvania.png)](https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Pennsylvania) |

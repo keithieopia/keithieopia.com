@@ -6,7 +6,7 @@ date = "2017-12-13"
 These time ranges are valid as of 2018 for attackers that might have stolen a database from a third-party website you use.
 
 
-<img src="/images/password-post/dennis-nedry.png">
+<img src="/img/password-post/dennis-nedry.png">
 
 
 It assumes the attacker is using a cloud platform like [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services) and your password has been hashed and salted by the website. You, on the other hand, should assume the website's security was programmed by troglodytes like the guy on the right ⟶
@@ -94,7 +94,7 @@ You should assume the attacker knows a lot about you; *case and point: Facebook*
 - Your parent's, friend's, spouse's, dog's: name, birthday, etc.
 - Sequences like 12345
 
-<img src="/images/password-post/12345.gif" class="img-responsive rounded">
+<img src="/img/password-post/12345.gif" class="img-responsive rounded">
 
 - Any of the above, but combined; adding guessable things together does not make them un-guessable
 - Passwords you've used before; they've [probably already been breached](https://haveibeenpwned.com)

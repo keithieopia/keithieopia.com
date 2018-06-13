@@ -3,7 +3,7 @@ title = "Footprints in the Public Domain"
 date = "2018-02-10"
 +++
 
-<img src="/images/footprints-post/footprints-sign.jpg">
+<img src="/img/footprints-post/footprints-sign.jpg">
 
 For those that have never heard of it, [Footprints in the Sand](https://en.wikipedia.org/wiki/Footprints_%28poem%29) is an popular religious poem with a disputed origin ultimately resulting in a [lawsuit](http://www.washingtonpost.com/wp-dyn/content/article/2008/05/31/AR2008053101998.html). I had wanted to feature this beautiful poem on decorative sign, but found the ugly nature of it's legal status to be off-putting.
 

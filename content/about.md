@@ -27,7 +27,7 @@ A contemporary interpretation of that poem, we all can relate to:
 
 | Us, in Real Life&hellip; | Us, on Social Media&hellip; |
 |:------------------------:|:---------------------------:|
-| <img src="/images/about/perfect.png" class="img-responsive img-thumb"> | <img src="/images/about/reality.png" class="img-responsive img-thumb"> |
+| <img src="/img/about/perfect.png" class="img-responsive img-thumb"> | <img src="/img/about/reality.png" class="img-responsive img-thumb"> |
 
 
 Everyone usually agrees with the adage *"nobody's perfect"*, but contrary to that, we feel great social pressure to paint an idealised version of ourselves online.
