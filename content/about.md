@@ -25,8 +25,8 @@ Hello, my name is Timothy Keith. But first, a poem:
 
 A contemporary interpretation of that poem, we all can relate to:
 
-| Us, in Real Life&hellip; | Us, on Social Media&hellip; |
-|:------------------------:|:---------------------------:|
+| Us, on Social Media&hellip; | Us, in Real Life&hellip; |
+|:---------------------------:|:------------------------:|
 | <img src="/img/about/perfect.png" class="img-responsive img-thumb"> | <img src="/img/about/reality.png" class="img-responsive img-thumb"> |
 
 
