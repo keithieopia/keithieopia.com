@@ -1,21 +1,30 @@
 			</div><!-- /col-md-8 -->
 			
-			<footer class="offset-md-3 col-md-6 text-center">
-				<nav class="menu">
-					<ul>
-						<li>
-							<a href="mailto:{{ .Site.Params.email }}" target="_blank">Email</a>
-						</li>
-
-					{{ range .Site.Menus.footer }}
-						<li>
-							<a href="{{.URL}}">{{ .Name }}</a>
-						</li>
-					{{ end }}
-					</ul>
-				</nav>
+			
+			<footer class="offset-md-2 col-md-8">
 				
-				<div class="copyright">
+				<div class="row">
+					<div class="col-md-6">
+							<nav class="menu">
+								<ul>
+								{{ range .Site.Menus.footer }}
+									<li>
+										<a href="{{.URL}}">{{ .Name }}</a>
+									</li>
+								{{ end }}
+								</ul>
+							</nav>
+					</div>
+					<div class="col-md-6 text-right">
+							{{ range .Site.Menus.icons }}
+								<a href="{{ .URL }}" title="{{ .Title }}">
+									<i class="fab fa-{{ .Name }}"></i>
+								</a>
+							{{ end }}
+					</div>
+				</div>
+				
+				<div class="copyright text-center">
 					Content <a href="/license" rel="license" title="Creative Commons Attribution 4.0 International (CC BY 4.0)"><i class="fab fa-creative-commons"></i></a> 
 					<a rel="author" href='/contact'>{{ .Site.Params.author }}</a><br>
 
@@ -25,6 +34,8 @@
 					<a href="{{ .Site.Params.source }}">{{ .Site.Data.git.tag }}</a>
 
 				</div>
+				
+
 			</footer>
 			
 			
