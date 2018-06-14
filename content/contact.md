@@ -29,14 +29,14 @@ If you're wondering why I'm not uploading my keys to a public key server such as
 ## Elsewhere
 I use to be on social networks like Facebook and Twitter, but not anymore. Nowadays you can find me on the following sites:
 
-- [About.me](https://about.me/timothykeith)
 - [Codewars](https://www.codewars.com/users/keithieopia)
 - [GitHub](https://github.com/keithieopia)
 - [Goodreads](https://www.goodreads.com/keithieopia)
+- [HackerRank](https://www.hackerrank.com/timothykeith)
 - [IMDb](http://www.imdb.com/user/ur73901400/ratings?sort=user_rating:desc)
 - [Keybase](https://keybase.io/timothykeith)
 - [Stack Overflow](https://stackoverflow.com/users/7416714/keithieopia)
 - [Steam](https://steamcommunity.com/id/keithieopia)
-- [TED](https://www.ted.com/profiles/7189113)
+
 
 
