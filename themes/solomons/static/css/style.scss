@@ -14,216 +14,79 @@ $black:  #1b242d;
 $brown:  #4f4a42;
 $tan:    #9b7762;
 
-$highlight-color: $orange;
-$text-color: $black;
-$link-color: $orange;
-$link-glow: lighten($link-color, 10%);
-$symbol-color: $tan;
+
 $fineprint-color: $tan;
 
 
 
-html, body {
+// Sakura 
+$color-text: $black;
+$font-size-base: 2.5rem;
+
+$color-blossom: lighten($orange, 10%);
+$color-fade: $orange;
+
+$color-bg: $white;
+$color-bg-alt: $tan;
+
+@import '../../../../node_modules/normalize.scss/normalize';
+@import '../../../../node_modules/sakura.css/scss/_main.scss';
+
+html {
+	border-top: 5px solid $color-fade;
+	border-bottom: 5px solid $color-fade;
+	
     min-height: calc(100vh - 10px);
 }
 
 body {
-	border-top: 5px solid $highlight-color;
-	border-bottom: 5px solid $highlight-color;
-
 	background: url("../img/bg.jpg") no-repeat center center fixed;
 	background-size: cover;
 	
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 1.5em;
-	
-	color: $text-color;
-	
-	padding-top: 2em;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
-	font-weight: normal;
-	font-style: italic;
-	
-	margin: 1.5em 0;
+#wrapper {
+	position: relative;
 }
 
-.small-caps {
-  font-variant-caps: small-caps;
-
-}
-
-a, a:visited {
-	color: $link-color;
-	text-decoration: none;
-
-	transition: text-shadow 0.2s linear;
-}
-
-a:hover {
-	color: $link-color;
-	text-decoration: none;
-	text-shadow: 0 0 10px $link-glow;
-}
-
-hr {
-	border: 0;
-	height: 2px;
-	background-image: linear-gradient(to right, rgba($link-glow, 0), rgba($link-glow, 0.75), rgba($link-glow, 0));
-}
-
-blockquote {
-	border-left: 4px solid $link-glow;
-	padding-left: 1em;
+header {
+	text-align: center;	
+	margin: 1em 0;
 	
-	font-style: italic;
-	color: lighten($text-color, 5%);
-}
-
-#entry-list {
-	margin-bottom: 1em;
-	
-	h1 {
-		font-size: 1em;
-		font-style: normal;
-		margin: 0;
-	}
-	
-	time {
-		font-size: .8em;
-		font-style: italic;
-	}
-}
-
-#entry-list:first-of-type {
-	margin-top: 1.5em;
-}
-
-article {
-	
-	header {
-		margin-bottom: 1.5em;
-	
-		h1, h2, h3, h4, h5, h6, h7 {
-			margin-bottom: 0;
-		}
-	
-		a, a:hover, a:visited {
-			color: $text-color;
-			text-shadow: none;
-		}
-
-		time {
-			font-style: italic;
-		}
-		
-		time::after {
-			display: block;
-			content: "\A\2766"; // newline and ❦
-		}
-	}
-	
-
-	hr {
-		margin: 4em .5em;
-	}
-
-	img {
-		float: right;
-		max-width: 50%;
-		
-		margin: .5em -25% .5em 1em;
-
-		border-radius: .5em;
-		//box-shadow: 0 0 1em .1em $text-color;
-	}
-	
-	table {
-		background-color: rgba(#FFF, .25);
-		border-radius: .5em;
-
-		th, td {
-			padding: .5em 1em;
-		}
-		
-		thead {
-			border-bottom: 1px solid #FFF;
-		}
-		
-		tbody {
-			td {
-				border-left: 1px dotted #FFF;
-				border-right: 1px dotted #FFF;
-			}
-
-			td:first-child {
-				border-left: 0;
-			}
-			
-			td:last-child {
-				border-right: 0;
-			}
-		}
-		
-		.cite {
-			caption-side: bottom;
-			text-align: right;
-			
-			font-family: sans;
-			font-style: italic;
-			font-size: .6em;
-			
-			margin-right: 1em;
-			padding: 0;
-		}
-		
-		.cite::before {
-			content: "source: ";
-		}
-		
-		img {
-			float: none;
-			margin: 0;
-		}
-	}
-		
+	border-bottom: 1px dotted $color-bg-alt;
 }
 
 .logo {
     width: 80px;
     height: 80px;
     
-    box-shadow: 0 0 0 5px rgba($highlight-color, 0.5); 
+    box-shadow: 0 0 0 5px rgba($color-fade, 0.5); 
     border-radius: 80px;
     
-    font-size: 80px;
-    color: $white;
     line-height: 80px;
-    text-align: center;
-    background: $highlight-color;
+    font-size: 80px;
+    color: $color-bg;
+
+    background: $color-fade;
     
-    margin: 0 auto .5em auto;
+    margin: 0 auto;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-footer {
-	margin-top: 4em;
-	padding: 1em;
-	border-top: 2px solid $highlight-color;
-
-	font-family: "Roboto", sans-serif;
-	color: $fineprint-color;
-	
-	.copyright {
-		margin-top: 2em;
-		font-size: .6em;
-	}
+h1, h2, h3, h4, h5, h6, h7 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: normal;
 }
 
-.menu {
+ul {
+	list-style-type: square;
+	color: $color-bg-alt;
+}
+
+nav {
 	font-family: "Roboto", sans-serif;
-	font-size: .8em;
-	
+
 	ul {
 	    list-style-type: none;
 	    padding: 0;
@@ -231,12 +94,12 @@ footer {
 
 	ul:before {
 		content: "\2039";
-		color: $symbol-color; 
+		color: $color-bg-alt; 
     }
     
 	ul:after {
 		content: "\203A";
-		color: $symbol-color; 
+		color: $color-bg-alt; 
     }
 	
 	li {
@@ -245,7 +108,7 @@ footer {
 	
 	li:after {
 		content: "\2022\0020";
-		color: $symbol-color; 
+		color: $color-bg-alt; 
     }
 	
 	li:last-child:after {
@@ -255,4 +118,127 @@ footer {
 	.active {
 		font-weight: bold;
 	}
+}
+
+time {
+	font-style: italic;
+}
+
+a, a:visited {
+	color: $color-fade;
+	text-decoration: none;
+
+	transition: text-shadow 0.2s linear;
+}
+
+a:hover {
+	color: $color-blossom;
+	text-decoration: none;
+	text-shadow: 0 0 10px lighten($color-blossom, 10%);
+	border-bottom: 1px dotted $color-blossom;
+}
+
+caption {
+	caption-side: bottom;
+	text-align: right;
+			
+	font-family: sans;
+	font-size: 1.5rem;
+}
+		
+caption::before {
+	content: "source: ";
+}
+
+
+article {
+	img {
+		float: right;
+		max-width: 50%;
+		
+		margin: 1rem;
+
+		//border-radius: .5em;
+		border: 1px solid $color-blossom;
+		box-shadow: 0 0 1rem .5rem lighten($color-blossom, 10%);
+	}
+	
+	table {
+		img {
+			float: none;
+			margin: 0;
+		}
+	}
+	
+	.no-border {
+		border: 0;
+		box-shadow: unset;
+	}
+	
+	header {
+		border-bottom: none;
+	}
+}
+
+blockquote {
+	background-color: rgba($color-bg-alt, .1);
+	padding: .1em 1em .1em 1em;
+}
+
+code {
+	display: block;
+	white-space: normal;
+	font-family: monospace;
+	
+	background-color: rgba($color-bg-alt, .5);
+	border-left: 3px solid $color-blossom;
+	margin-left: 1.5em;
+}
+
+.shell::before {
+	content: '$ ';
+	color: $color-blossom;
+	font-weight: bold;
+}
+
+.mono {
+	font-family: monospace;
+	font-size: 1.8rem;
+}
+
+.center { text-align: center; }
+.right { text-align: right; }
+
+footer {
+	font-family: "Roboto", sans-serif;
+	
+	
+	border-top: 1px dotted $color-bg-alt;
+	
+	
+	.row {
+		display: table;
+		width: 100%;
+	}
+	
+	.left, .right {
+		display: table-cell;
+	}
+
+	.small {
+		font-size: 1.5rem;
+		margin-bottom: 1em;
+		color: $color-bg-alt; 
+	}
+	
+	.urls {
+		font-variant: small-caps;
+		font-size: 1.2rem;
+	}
+}
+
+hr {
+	clear: both;
+	border-style: dotted;
+	margin: 1.5em;
 }

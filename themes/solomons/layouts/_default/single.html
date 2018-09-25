@@ -2,9 +2,11 @@
 <!-- layout: single.html -->
 <main role="main">
 	<article>
-		<header class="text-center">
+		<header>
 			<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 			<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
+			
+			<h3>&#9096;</h3>
 		</header>
 		
 		{{ .Content }}

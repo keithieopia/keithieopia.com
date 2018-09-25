@@ -12,6 +12,16 @@ pygmentsstyle      = "autumn"
   email       = "timothykeith@gmail.com"
   source      = "https://github.com/keithieopia/keithieopia.com"
 
+  social = [
+	["GitHub", "github", "https://github.com/keithieopia/"],
+	["GitLab", "gitlab", "https://gitlab.com/keithieopia/"],
+	["Keybase", "keybase", "https://keybase.io/timothykeith"],
+	["goodreads", "goodreads", "https://www.goodreads.com/user/show/29557128-timothy"],
+	["IMDb", "imdb", "https://www.imdb.com/user/ur73901400/ratings?sort=user_rating:desc"],
+	["Steam", "steam", "https://steamcommunity.com/id/keithieopia"],
+	["Stack Overflow", "stack-overflow", "https://stackoverflow.com/users/7416714/keithieopia"]
+  ]
+
 [[menu.footer]]
   name   = "Email"
   url    = "mailto:timothykeith@gmail.com"
@@ -23,38 +33,7 @@ pygmentsstyle      = "autumn"
   name = "Colophon"
   url  = "/colophon/"
 
-[[menu.icons]]
-  title = "GitHub"
-  name = "github"
-  url  = "https://github.com/keithieopia/"
-[[menu.icons]]
-  title = "GitLab"
-  name = "gitlab"
-  url  = "https://gitlab.com/keithieopia/"
-[[menu.icons]]
-  title = "Keybase"
-  name = "keybase"
-  url  = "https://keybase.io/timothykeith"
-[[menu.icons]]
-  title = "goodreads"
-  name = "goodreads"
-  url  = "https://www.goodreads.com/user/show/29557128-timothy"
-[[menu.icons]]
-  title = "IMDb"
-  name = "imdb"
-  url  = "https://www.imdb.com/user/ur73901400/ratings?sort=user_rating:desc"
-[[menu.icons]]
-  title = "Steam"
-  name = "steam"
-  url  = "https://steamcommunity.com/id/keithieopia"
-[[menu.icons]]
-  title = "Stack Overflow"
-  name = "stack-overflow"
-  url  = "https://stackoverflow.com/users/7416714/keithieopia"
 
-
- 
-  
 [[menu.main]]
   name = "Blog"
   url = "/"
