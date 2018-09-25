@@ -1,3 +1,8 @@
+## 3.1 (2018-09-25)
+    - Switched from Bootstrap to Sakura
+    - Removed Javascript from website
+    - Setup yarn-check to auto-update dependencies 
+
 ## 3.0 (2017-07-29)
     - Changed static generator to Hugo
     - Theme changed to a modified version of "Hugo Zen" by OCHIISHI Koichiro
