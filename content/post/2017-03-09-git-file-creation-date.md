@@ -4,25 +4,25 @@ date = "2017-03-09"
 +++
 
 If you want to find the creation date of a file in a git repo, you can issue 
-the below command. Replace `[FILENAME]` with the respective file):
+the below command. Replace <span class="mono">[FILENAME]</span> with the respective file):
 
-{{< highlight bash >}}
-$ git log -1 --format="%ai" --reverse [FILENAME]
-{{< /highlight >}}
+<code class="shell">
+git log -1 --format="%ai" --reverse [FILENAME]
+</code>
 
-Alternatively, if you change `%ai` to `%ac` you'll get the date the file was 
+Alternatively, if you change <span class="mono">%ai</span> to <span class="mono">%ac</span> you'll get the date the file was 
 committed.
 
 ---
 
 Most people will point out modern filesystems like ext4 keep track of when
-files are created irregardless of git. Normally you can use `stat` to display 
+files are created irregardless of git. Normally you can use <span class="mono">stat</span> to display 
 this, but the required system calls are [not implemented](https://lwn.net/Articles/397442/) 
 yet in the Linux kernel:
 
-{{< highlight bash >}}
-$ stat -c %w [FILENAME]
-{{< /highlight >}}
+<code class="shell">
+stat -c %w [FILENAME]
+</code>
 
 Ironically, the main reason for the lack of compatibility under Linux is all the 
 other systems (BSD, Unix, and Windows) are all incompatible with one another and 
@@ -34,7 +34,7 @@ basically said future support isn't happening:
 >  
 > &mdash; Linus Torvalds
 
-To be clear, `ext4` does keep track of the file creation date internally. You 
+To be clear, <span class="mono">ext4</span> does keep track of the file creation date internally. You 
 can access the date using two slightly hackish methods. First is 
 [using debugfs](http://unix.stackexchange.com/a/50184) after getting the inode 
 of the file. The other way is [writing a kernel module and corresponding shell script](http://unix.stackexchange.com/a/92748).
