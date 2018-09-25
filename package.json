@@ -1,6 +1,11 @@
 {
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "npm-sass": "^2.2.3"
+    "node-sass": "^4.9.3",
+    "normalize.scss": "^0.1.0",
+    "npm-sass": "^2.3.0",
+    "sakura.css": "^1.0.0"
+  },
+  "devDependencies": {
+    "yarn-check": "^0.0.3"
   }
 }
