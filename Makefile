@@ -14,6 +14,11 @@ endif
 ifndef INSTALLED
 	yarn install
 endif
+# Below runs only if package list is older than 1 day
+	if find "package.json" -mtime +1 -print | grep -q "package.json"; then \
+	touch package.json \
+	./node_modules/yarn-check/bin/cli.js; \
+	fi
 
 update: precheck
 	yarn upgrade
