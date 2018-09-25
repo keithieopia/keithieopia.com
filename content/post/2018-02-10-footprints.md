@@ -11,8 +11,9 @@ After some research and legal advice, I found that two doctrines called [fair-us
 
 In October of 2014, I completed my version and made the decorative sign. The result is something new that uses more modern English. Since the poem has such a great message, and out of frustration with its murky copyright status, I decided to [dedicate my version to the public domain](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to use it with *or without* attribution or permission.
 
+---
 
-> ### Footprints in the Sand
+> **Footprints in the Sand**
 
 > One night I dreamed I was walking on the beach with God. Many scenes from my life flashed before me. In each scene I noticed footprints in the sand, sometimes two sets, other times only one.
 
