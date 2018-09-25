@@ -15,7 +15,7 @@ I enjoy reading about other countries and cultures, so it's no surprise I freque
 For non-Americans, it's best to think of U.S. states as independent countries with their own law and culture. Consider *United States* analogous to the European Union. For instance, there's a commonly believed trope that practically all Americans own guns. The state of New Mexico fits this stereotype well, as a lot of its residents can be seen freely walking around with a gun holster on their belt. 
 
 
-<img src="/img/old-bay-post/maps/maryland.png">
+<img src="/img/old-bay-post/maps/maryland.png" class="no-border">
 
 In the state of Maryland, that's basically illegal if you're not a police officer. Our gun laws are strict and a sudden change in them would probably cause mass panic and hysteria. That has nothing to do with my personal beliefs, it's just the culture of the state. As you probably guessed, I live there. 
 
@@ -24,7 +24,7 @@ Even within Maryland, there's regions with noticeable different culture, accents
 
 Even food within the U.S. can cause issues if introduced to a different region. There's a Maryland seasoning called [Old Bay](https://en.wikipedia.org/wiki/Old_Bay_Seasoning) that's officially used on seafood. In practice, we put it on everything: hamburgers, french fries, corn on the cob, fried chicken, etc. It's so pervasive that most restaurants by include a can on the table by default.
 
-<img src="/img/old-bay-post/old-bay.png">
+<img src="/img/old-bay-post/old-bay.png" class="no-border">
 
 I let a few of my Pennsylvania friends to try it on Boardwalk Fries, however *Old Bay* is somewhat of an acquired taste (it's made out of paprika, celery salt, and mustard among other things). I would not be exaggerating if I said one friend got physically sick and the rest where convinced I was lying about it's popularity in Maryland.
 
