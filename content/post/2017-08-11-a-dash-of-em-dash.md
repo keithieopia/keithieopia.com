@@ -4,7 +4,7 @@ date = "2017-08-11"
 +++
 
 
-<img src="/img/dash-post/mrs-dash.png">
+<img src="/img/dash-post/mrs-dash.png" class="no-border">
 
 There are two types of people in this world: those that have a complete spice rack in the kitchen and those that have a bottle of all-purpose seasoning on the dining table. Likewise, what people call a dash is actually an en-dash, em-dash, or a hyphen. To be clear, this post has nothing to do with Mrs. Dash.
 
