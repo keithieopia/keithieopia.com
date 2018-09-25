@@ -25,9 +25,9 @@ Hello, my name is Timothy Keith. But first, a poem:
 
 A contemporary interpretation of that poem, we all can relate to:
 
-| Us, on Social Media&hellip; | Us, in Real Life&hellip; |
-|:---------------------------:|:------------------------:|
-| <img src="/img/about/perfect.png" class="img-responsive img-thumb"> | <img src="/img/about/reality.png" class="img-responsive img-thumb"> |
+| Us, on Social Media&hellip; | Us, in Real Life&hellip;    |
+|:---------------------------:|:---------------------------:|
+| <img class="no-border" src="/img/about/perfect.png"> | <img class="no-border" src="/img/about/reality.png"> |
 
 
 Everyone usually agrees with the adage *"nobody's perfect"*, but contrary to that, we feel great social pressure to paint an idealised version of ourselves online.
