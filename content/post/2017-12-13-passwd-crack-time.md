@@ -22,10 +22,6 @@ A passphrase is several random words combined together, like xkcd's famous [corr
 The below chart assumes the attacker knows what dictionary you used and the dictionary has around 8000 words. 
 
 <table>
-	<caption class="cite">
-        <a href="https://www.reddit.com/r/techsnap/comments/18ezb6/correct_horse_battery_staple_really_a_strong/c8ede7r/">reddit</a>
-    </caption>
-
     <thead>
     	<th>Number of Words</th>
         <th>Time to Crack</th>
@@ -42,7 +38,11 @@ The below chart assumes the attacker knows what dictionary you used and the dict
         	<td>8 years</td>
         </tr>
     </tbody>
+    <caption>
+		<a href="https://www.reddit.com/r/techsnap/comments/18ezb6/correct_horse_battery_staple_really_a_strong/c8ede7r/">reddit</a>
+	</caption>
 </table>
+
 
 
 ## Passwords Crack Time
@@ -94,7 +94,7 @@ You should assume the attacker knows a lot about you; *case and point: Facebook*
 - Your parent's, friend's, spouse's, dog's: name, birthday, etc.
 - Sequences like 12345
 
-<img src="/img/password-post/12345.gif" class="img-responsive rounded">
+<img src="/img/password-post/12345.gif">
 
 - Any of the above, but combined; adding guessable things together does not make them un-guessable
 - Passwords you've used before; they've [probably already been breached](https://haveibeenpwned.com)
