@@ -4,9 +4,6 @@ baseurl = "http://keithieopia.com/"
 
 theme = "solomons"
 
-pygmentsuseclasses = false
-pygmentsstyle      = "autumn"
-
 [params]
   author      = "Timothy Keith"
   email       = "timothykeith@gmail.com"
