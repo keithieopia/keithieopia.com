@@ -1,0 +1,3 @@
+[submodule "hugo/themes/elephants"]
+	path = hugo/themes/elephants
+	url = https://gitlab.com/meibenny/elephants.git
