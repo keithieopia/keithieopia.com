@@ -1,0 +1,12 @@
+name = "Koi"
+license = "MIT"
+licenselink = "https://github.com/keithieopia/keithieopia.com/blob/master/LICENSE.md"
+description = "Minimal theme featuring a koi pond"
+homepage = "https://github.com/keithieopia/keithieopia.com"
+tags = ["blog"]
+features = ["blog"]
+min_version = "0.30.2"
+
+[author]
+  name = "Timothy Keith"
+  homepage = "https://keithieopia.com"

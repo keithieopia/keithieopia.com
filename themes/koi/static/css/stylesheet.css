@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    border-top: 3px solid #FFA500;
+
+    background: url('/images/fish.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    font-size: 1.2em;
+    line-height: 1.3em;
+    overflow-x: hidden;
+}
+
+code {
+  font-family: 'Inconsolata', monospace;
+}
+
+blockquote {
+  font-style: oblique;
+  color: #6c757d; /* same as bootstrap's text-muted */
+  border-left: 3px solid #FFA500;
+  padding-left: 1em;
+}
+
+header:hover #logo {
+  filter: none;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  filter: grayscale(100%);
+}
+
+#page-title a {
+    color: black;
+    font-variant: small-caps;
+}
+
+nav {
+  font-size: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  margin-right: 15px;
+  color: black;
+  border-bottom: none;
+}
+nav ul li a:hover {
+  color: #FFA500;
+  border-bottom: none;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  border-right: 1px dotted #FFA500;
+}
+nav ul li:last-child {
+  margin-right: 0;
+  border-right: 0;
+}
+
+#intro {
+  font-variant: small-caps;
+  font-style: oblique;
+}
+
+main {
+   min-height: calc(100vh - 73px);
+}
+footer {
+  height: 70px;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.footer {
+  background-color: rgba(255,255,255,.5);
+  border-top: 1px solid white;
+  border-bottom: 3px solid #FFA500;
+}
+
+.footer small a {
+  color: #6c757d; /* same as bootstrap's text-muted */
+  border-bottom: 1px dotted #6c757d;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px dotted #000;
+}
+
+#page-content a,
+#post-content a {
+  border-bottom: 1px dotted #FFA500;
+  margin: 0 .2em;
+}
+
+#page-content a:hover,
+#post-content a:hover {
+  background-color: rgba(255,165,0, .5); /* #FFA500 */
+  border-bottom: 0;
+  margin: 0;
+  padding: 0 .2em;
+}
+
+#post-title {
+  font-variant: small-caps;
+  color: #FFA500;
+}
+
+#post-content h1:before,
+#post-content h2:before,
+#post-content h3:before,
+#post-content h4:before {
+  margin-left: -2rem;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2rem;
+
+  content: '§ ';
+
+  color: #FFA500;
+  opacity: .5;
+}
+
+#TableOfContents {
+  color: #000;
+  opacity: .5;
+}
+
+#TableOfContents li {
+  display: block;
+  border: 0;
+}
+#TableOfContents li a {
+  color: inherit;
+  border-bottom: 0;
+}
+#TableOfContents li a:before {
+  content: '▪ ';
+  color: #FFA500;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.post-listing ul {
+  list-style-type: none;
+}
+
+.post-listing ul li time {
+  font-family: 'Inconsolata', monospace;
+}
+.post-title {
+  font-size: 1.1em;
+}
+.post-teaser {
+  display: block;
+  font-style: italic;
+  margin-left: 5.5em;
+}
+
+.post-image {
+  filter: grayscale(100%);
+  opacity: .5;
+}
+
+.post-image:hover {
+  filter: none;
+  opacity: 1;
+}

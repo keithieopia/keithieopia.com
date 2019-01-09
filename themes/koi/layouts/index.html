@@ -1,0 +1,47 @@
+{{ partial "header.html" . }}
+
+<header class="offset-md-3 col-md-6 row">
+
+  <div class="d-inline-block">
+    <img id="logo" src="/images/logo.png">
+  </div>
+  <div class="p-2 d-inline-block align-middle">
+    <h1 id="page-title"><a href="/">{{ .Site.Params.title }}</a></h1>
+    <nav>
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}">
+              {{ .Pre }}
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+{{if .IsHome}}
+<div id="intro" class="offset-md-3 col-md-6 p-5 row">{{ $.Site.Params.intro }}</div>
+{{ end }}
+
+<div id="page-content" class="row">
+  <div class="offset-md-3 col-md-6 post-listing">
+      <ul>
+        {{ range (where .Data.Pages ".Params.hidefromhome" "!=" "true") }}
+          <li class="mb-1">
+            <time class="text-muted">{{ .Date.Format (.Site.Params.dateform | default "2006-01-02") }}</time>
+            <span class="post-title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </span>
+            <span class="post-teaser">
+              {{ .Summary }}
+            </span>
+          </li>
+        {{ end }}
+      </ul>
+  </div>
+</div>
+{{ partial "footer.html" . }}

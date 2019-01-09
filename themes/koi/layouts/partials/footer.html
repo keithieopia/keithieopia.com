@@ -1,0 +1,30 @@
+      </main>
+      <footer class="footer row p-3">
+
+        <div class="offset-md-3 col-md-6 text-center">
+            Content
+            <a href="/license" rel="license" title="Creative Commons Attribution 4.0 International (CC BY 4.0)">
+              <i class="fab fa-creative-commons"></i>
+            </a>
+            <a href="mailto:{{.Site.Params.email}}">{{.Site.Params.author}}</a><br>
+
+            <small class="text-muted">
+            Site available via
+            <a href="{{ .Site.Params.httpURL }}">HTTP</a>,
+            <a href="{{ .Site.Params.httpsURL }}">HTTPS</a>, and
+            <a href="{{ .Site.Params.torURL }}">Tor</a>.
+            Source code is <a href="{{ .Site.Params.source }}">here</a>.
+            </small>
+        </div>
+
+
+        <div class="col-md-3 text-right">
+        {{ range .Site.Params.social }}
+        <a href="{{ index . 2 }}" title="{{ index . 0 }}">
+          <i class="fab fa-{{ index . 1 }}"></i>
+        </a>
+        {{ end }}
+        </div>
+      </footer>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+
+<div class="row">
+  <section class="offset-md-3 col-md-6">
+      <h1 id="post-title">{{ .Title }}</h1>
+
+      <div class="text-muted">
+        {{if .Lastmod}}
+          {{ .Lastmod.Format (.Site.Params.dateform | default "January 2, 2006") }}
+        {{else}}
+          {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}
+        {{end}}
+      </div>
+
+      <div id="post-content" class="mt-4">
+          {{ .Content }}
+      </div>
+  </section>
+
+  <div class="col-md-3 pl-5">
+    {{ if .TableOfContents }}
+      <div class="row p-2">
+        {{ .TableOfContents }}
+      </div>
+    {{ end }}
+
+    {{ if (isset .Params "image") }}
+      {{ range .Params.image }}
+      <div class="row">
+        <img src="{{ . }}" class="img-fluid post-image rounded ml-1 mt-5 mr-5">
+      </div>
+      {{ end }}
+    {{ end }}
+    </div>
+  </div>
+
+
+
+</div>
+
+{{ partial "footer.html" . }}

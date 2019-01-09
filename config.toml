@@ -1,40 +1,29 @@
+baseURL = "https://keithieopia.com"
 languageCode = "en-us"
-title = "Keithieopia"
-baseurl = "http://keithieopia.com/"
-
-theme = "solomons"
+theme = "koi"
 
 [params]
-  author      = "Timothy Keith"
-  email       = "timothykeith@gmail.com"
-  source      = "https://github.com/keithieopia/keithieopia.com"
+  title = "Keithieopia"
+  author = "Timothy Keith"
+  email = "timothykeith@gmail.com"
+  description = "Names are unimportant. One person can't change the world. But one plus one plus one starts to add up. This site is my small addition to that equation."
+  intro = '''
+Hi. Names are unimportant — one person can't change the world.
+But one, plus one, plus one… starts to add up. This site is my
+small addition to that equation.
+'''
 
   social = [
-	["GitHub", "github", "https://github.com/keithieopia/"],
-	["GitLab", "gitlab", "https://gitlab.com/keithieopia/"],
-	["Keybase", "keybase", "https://keybase.io/timothykeith"],
-	["goodreads", "goodreads", "https://www.goodreads.com/user/show/29557128-timothy"],
-	["IMDb", "imdb", "https://www.imdb.com/user/ur73901400/ratings?sort=user_rating:desc"],
-	["Steam", "steam", "https://steamcommunity.com/id/keithieopia"],
-	["Stack Overflow", "stack-overflow", "https://stackoverflow.com/users/7416714/keithieopia"]
+    ["GitHub", "github", "https://github.com/keithieopia/"],
+    ["GitLab", "gitlab", "https://gitlab.com/keithieopia/"],
+    ["Keybase", "keybase", "https://keybase.io/timothykeith"],
+    ["goodreads", "goodreads", "https://www.goodreads.com/user/show/29557128-timothy"],
+    ["IMDb", "imdb", "https://www.imdb.com/user/ur73901400/ratings?sort=user_rating:desc"],
+    ["Steam", "steam", "https://steamcommunity.com/id/keithieopia"],
+    ["Stack Overflow", "stack-overflow", "https://stackoverflow.com/users/7416714/keithieopia"]
   ]
 
-[[menu.footer]]
-  name   = "Email"
-  url    = "mailto:timothykeith@gmail.com"
-  weight = -100
-[[menu.footer]]
-  name = "License"
-  url  = "/license/"
-[[menu.footer]]
-  name = "Colophon"
-  url  = "/colophon/"
-
-
-[[menu.main]]
-  name = "Blog"
-  url = "/"
-  weight = -100
-[[menu.main]]
-  name = "Git"
-  url = "http://git.keithieopia.com/explore/repos"
+  httpURL   = "http://keithieopia.com"
+  httpsURL  = "https://keithieopia.com"
+  torURL    = "http://keith4g2hdg6dzsvjtra3c5pyclcwpam2o5tvjx2tm44tjj7nkhyakyd.onion/"
+  source = "https://github.com/keithieopia/keithieopia.com"
