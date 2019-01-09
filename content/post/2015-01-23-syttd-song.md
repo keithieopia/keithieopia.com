@@ -3,7 +3,7 @@ title = "Say Yes to the Dress Song"
 date = "2015-01-23"
 +++
 
-My wife is a fan of the TLC show [Say Yes to the Dress](https://en.wikipedia.org/wiki/Say_Yes_to_the_Dress). Knowing my Google-fu, she gave me the task of identifying the song that plays when the brides find their dress. It proved to be pretty difficult to find online even with part of the lyrics.
+My wife is a fan of the TLC show [Say Yes to the Dress](https://en.wikipedia.org/wiki/Say_Yes_to_the_Dress). Knowing my Google-fu, she gave me the task of identifying the song that plays when the brides find their dress. It proved to be pretty difficult to find online even with part of the lyrics.<!--more-->
 
 It's a single called *Eternal Love* by *Fish n' Chips*. iTunes was the only place I could find selling the song right now; here's the [link](https://itunes.apple.com/us/album/eternal-love-single/id864197427). For those wishing for confirmation, here's the lyrics that are played during *Say Yes to the Dress*:
 

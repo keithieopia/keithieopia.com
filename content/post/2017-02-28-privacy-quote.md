@@ -5,22 +5,21 @@ date = "2017-02-28"
 
 Given all the renewed interest in privacy rights in the so-called
 *Post Snowden Era*, I'd thought I'd clarify a misattributed quote floating
-around:
-
-> You have nothing to fear, if you have nothing to hide
+around: *"You have nothing to fear, if you have nothing to hide"*
+<!--more-->
 
 Since 2011, the phrase has been used as a
 [common retort](https://en.wikipedia.org/wiki/Nothing_to_hide_argument) to
 privacy concerns. In recent years, privacy advocates have turned the tables
 attributing the quote to Joseph Goebbels, the Minister of Propaganda of Nazi
-Germany. Since nobody wants to be on the side of Nazis, the quote is now 
+Germany. Since nobody wants to be on the side of Nazis, the quote is now
 associated with pro-privacy. However, [Godwin's law](https://en.wikipedia.org/wiki/Godwin's_law)
 begs us to be skeptical on the source.
 
 Secondary attribution generally lies with George Orwell's famous book, 1984.
-Keen readers will remember Big Brother and the all-seeing telescreens. Except 
-that our *"nothing to fear, nothing to hide"* quote isn't Nazi or Big Brother. 
-As O'Brien in Room 101 pointed out The Party isn't interested in what you're 
+Keen readers will remember Big Brother and the all-seeing telescreens. Except
+that our *"nothing to fear, nothing to hide"* quote isn't Nazi or Big Brother.
+As O'Brien in Room 101 pointed out The Party isn't interested in what you're
 hiding:
 
 > We are not interested in those stupid crimes that you have committed. The
@@ -30,9 +29,9 @@ hiding:
 >
 > &mdash; George Orwell, *1984 (Book 3, Chapter 2)*
 
-## So if not Orwellian or Fascist, what? 
-The quote actually was penned by Upton Sinclair, the author of the influential 
-book, *[The Jungle](https://en.wikipedia.org/wiki/The_Jungle)*. Sinclair used 
+## So if not Orwellian or Fascist, what?
+The quote actually was penned by Upton Sinclair, the author of the influential
+book, *[The Jungle](https://en.wikipedia.org/wiki/The_Jungle)*. Sinclair used
 our quote twice in his *Dead Hand* series. Readers looking for closure will be
 disappointed to learn that the original context was used both *for* and
 *against* privacy:

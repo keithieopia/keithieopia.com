@@ -5,9 +5,9 @@ date = "2014-06-22"
 
 In grade school, I had a teacher that played a game called *Rare Birds* with
 each of her classes. The object was to silently write down three unusual facts
-about yourself that where not easily guessed. Once everyone was done, the
-teacher walked around and collected our slips in this ridiculously looking
-Dr. Seuss hat.
+about yourself that where not easily guessed.<!--more-->
+Once everyone was done, the teacher walked around and collected our slips in
+this ridiculously looking Dr. Seuss hat.
 
 She then would pick one from the hat to read out loud, and we had to guess who
 we thought the three facts belonged to. After a certain number of wrong guesses,

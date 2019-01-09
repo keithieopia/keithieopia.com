@@ -3,7 +3,7 @@ title = "Auditory Processing Disorder"
 date = "2014-05-26"
 +++
 
-For all my life I have had a disability called Central Auditory Processing Disorder (CAPD). People with CAPD have great difficulty understanding what others say, especially when in noisy environments such as cafeterias, playgrounds, gyms, bars, and public sporting events.
+For all my life I have had a disability called Central Auditory Processing Disorder (CAPD). People with CAPD have great difficulty understanding what others say, especially when in noisy environments such as cafeterias, playgrounds, gyms, bars, and public sporting events.<!--more-->
 
 With me, the disorder manifests itself in two different ways. In loud environments, it's similar to having a conversation with someone on the other side of a crowded indoor basketball court. Essentially, you can hear that everyone talking, but it's almost impossible to pick out their voice from everyone else.
 
