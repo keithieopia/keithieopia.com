@@ -12,46 +12,37 @@ the humans responsible & colophon
 
 ________________________________________________________________________________
 
-Languages: Go, Node.js, and Python
+Languages: Go
 Markup:    Markdown, HTML5, and CSS3
 
 Front End
 ---------
 
-  [ Theme ]
-    I used OCHIISHI Koichiro's "Hugo Zen" theme as a starting point and 
-    modified it to my tastes. I added top and bottom bars after I saw "Minimal"
-    by Calin Tataru. The color scheme comes from "Crisp" by Thibault NORMAND.
+ [ Theme ]
+   Benny Mei's "Elephants" theme was used as a base due to it's simplistic
+   nature. I then modified it drawing inspiration from Calin Tataru's "Minimal"
+   theme and Pieter Robberechts' "Cactus" theme. Note that Cactus is for Hexo,
+   not Hugo.
 
-    Syntax highlighting uses the Autumn, which is one of the base color schemes
-    included with Pygments
+     Cactus    - https://github.com/probberechts/hexo-theme-cactus
+     Minimal   - https://github.com/calintat/minimal
+     Elephants - https://gitlab.com/meibenny/elephants
 
-    Hugo Zen - https://github.com/rakuishi/hugo-zen
-    Minimal  - https://github.com/calintat/minimal
-    Crisp    - https://github.com/Zenithar/hugo-theme-crisp
-
-  [ Libraries & Frameworks ]
-    Skeleton - http://getskeleton.com/
+ [ Libraries & Frameworks ]
+    Bootstrap    - https://getbootstrap.com/
+    Font Awesome - https://fontawesome.com/
 
   [ Fonts ]
-    Fredericka the Great   - https://fonts.google.com/specimen/Fredericka+the+Great
-    Quattrocento           - https://fonts.google.com/specimen/Quattrocento
-    Roboto                 - https://fonts.google.com/specimen/Roboto
+    Roboto      - https://fonts.google.com/specimen/Roboto
+    Inconsolata -https://fonts.google.com/specimen/Inconsolata
+
 
 Back End
 --------
 
-Hugo     - http://gohugo.io/ 
-Pygments - http://pygments.org/
-
-
-Development
------------
-
+  Hugo      - http://gohugo.io/
   Make      - https://www.gnu.org/software/make/
-  Yarn      - https://yarnpkg.com/en/
-  ReText    - https://github.com/retext-project/retext
-  Kate      - https://kate-editor.org/
+  Atom      - https://atom.io/
   GIMP      - https://www.gimp.org
   OptiPNG   - http://optipng.sourceforge.net
   Jpegoptim - http://www.kokkonen.net/tjko/projects.html
