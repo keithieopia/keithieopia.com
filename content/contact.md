@@ -1,16 +1,14 @@
 +++
 title = "Contact"
 date = "2016-04-04"
+lastmod = "2019-01-09"
 url = "/contact/"
 hidefromhome = "true"
 menu = "main"
 +++
 
-The easiest way to contact me is via my email address: [timothykeith@gmail.com](mailto:diomhair@protonmail.com).
+The easiest way to contact me is via my email address: [timothykeith@gmail.com](mailto:timothykeith@gmail.com).
 Please use a sensible subject line so I don't accidentally mistake your message for spam.
-
-If you prefer not to use Google, I also have an alternative email at: [diomhair@protonmail.com](mailto:diomhair@protonmail.com). D&#xEC;omhair means *secret* or *private* in Scots Gaelic, among [other translations](https://en.wiktionary.org/wiki/d%C3%AComhair).
-
 
 ## GPG / OpenPGP / PGP
 If you're privacy conscious, feel free to encrypt any messages using my [public key](http://uploads.keithieopia.com/timothykeith.pub.asc). If you prefer, my key is also available on [keybase.io](https://keybase.io/timothykeith), the fingerprint is:
@@ -39,6 +37,3 @@ I use to be on social networks like Facebook and Twitter, but not anymore. Nowad
 - [Keybase](https://keybase.io/timothykeith)
 - [Stack Overflow](https://stackoverflow.com/users/7416714/keithieopia)
 - [Steam](https://steamcommunity.com/id/keithieopia)
-
-
-
