@@ -25,10 +25,9 @@ Hello, my name is Timothy Keith. But first, a poem:
 
 A contemporary interpretation of that poem, we all can relate to:
 
-| Us, on Social Media&hellip; | Us, in Real Life&hellip;    |
-|:---------------------------:|:---------------------------:|
-| <img class="no-border" src="/img/about/perfect.png"> | <img class="no-border" src="/img/about/reality.png"> |
-
+| Us, on Social Media&hellip;                  | Us, in Real Life&hellip;       |
+|:--------------------------------------------:|:------------------------------:|
+| ![What we portray ourselves as](perfect.png) | ![The hard truth](reality.png) |
 
 Everyone usually agrees with the adage *"nobody's perfect"*, but contrary to that, we feel great social pressure to paint an idealised version of ourselves online.
 
@@ -44,4 +43,3 @@ I am not perfect. My imperfections are what makes me, *me*. It feels like such a
 > and I like you just the way you are.  
 >  
 > &mdash; Fred Rogers, *Mister Rogers' Neighborhood*
-
