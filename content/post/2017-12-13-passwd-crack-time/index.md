@@ -1,13 +1,11 @@
 +++
 title = "Time Needed to Crack Passwords, 2018 Edition"
 date = "2017-12-13"
+image = ["dennis-nedry.png"]
 +++
 
 These time ranges are valid as of 2018 for attackers that might have stolen a database from a third-party website you use.
-
-
-<img src="/img/password-post/dennis-nedry.png">
-
+<!--more-->
 
 It assumes the attacker is using a cloud platform like [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services) and your password has been hashed and salted by the website. You, on the other hand, should assume the website's security was programmed by troglodytes like the guy on the right ⟶
 
@@ -19,7 +17,7 @@ If the site in question *does* store your password securely, the time to crack w
 
 A passphrase is several random words combined together, like xkcd's famous [correcthorsebatterystaple](https://www.xkcd.com/936/) suggestion.
 
-The below chart assumes the attacker knows what dictionary you used and the dictionary has around 8000 words. 
+The below chart assumes the attacker knows what dictionary you used and the dictionary has around 8000 words.
 
 <table>
     <thead>
@@ -94,10 +92,9 @@ You should assume the attacker knows a lot about you; *case and point: Facebook*
 - Your parent's, friend's, spouse's, dog's: name, birthday, etc.
 - Sequences like 12345
 
-<img src="/img/password-post/12345.gif">
+<img src="12345.gif">
 
 - Any of the above, but combined; adding guessable things together does not make them un-guessable
 - Passwords you've used before; they've [probably already been breached](https://haveibeenpwned.com)
 
 **tl;dr:** ***use 13 characters or 5 random words combined***
-
