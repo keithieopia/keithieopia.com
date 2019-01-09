@@ -10,8 +10,7 @@ build: precheck
 	hugo
 
 serve: precheck
-	hugo server -D
+	hugo serve -D
 
 push: build
 	rsync -avz -e ssh --progress --no-perms --no-owner --no-group --no-times public/ keithieopia:/srv/htdocs/keithieopia.com
-
