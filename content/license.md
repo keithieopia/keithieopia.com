@@ -1,7 +1,9 @@
 +++
 title = "License"
 date = "2015-01-22"
+lastmod = "2019-01-09"
 hidefromhome = "true"
+menu = "main"
 +++
 
 Unless otherwise noted, the content on [keithieopia.com](http://keithieopia.com) is copyrighted by Timothy Keith. Most of the content is licensed more permissively depending on its type:
@@ -19,7 +21,7 @@ If you wish to redistribute or otherwise use content beyond the terms of the lic
 ## The MIT License
 <a name="mit-license"></a>
 
-> Copyright 2017 Timothy Keith
+> Copyright 2019 Timothy Keith
 >  
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to
