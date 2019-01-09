@@ -1,7 +1,12 @@
+## 3.2 (2019-01-09)
+    - Switched back to Bootstrap
+    - New lightweight theme
+    - Improved legibility with fonts and background 
+
 ## 3.1 (2018-09-25)
     - Switched from Bootstrap to Sakura
     - Removed Javascript from website
-    - Setup yarn-check to auto-update dependencies 
+    - Setup yarn-check to auto-update dependencies
 
 ## 3.0 (2017-07-29)
     - Changed static generator to Hugo
@@ -12,7 +17,7 @@
     - Site is now statically generated with Jekyll
     - New theme using Bootstrap based on Papyrus layout and Base16 color scheme
     - Assets such as JS, CSS, & Fonts managed with Bower
-    
+
 ## 1.0 (2016-04-04)
     - New clean theme
     - Removed SQLite logging stuff for speed (didn't really use it anyway)
