@@ -28,3 +28,7 @@ need to add [*82](https://en.wikipedia.org/wiki/*82) to the below phone number:
 ---
 
 I want to give a shout out to everyone else that took time out of their day to send me emails thanking me for the original guide. Those kind words continue to motivate me.
+
+<br>
+
+> Last Updated: August 20, 2019
