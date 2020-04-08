@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 date = "2016-04-04"
-lastmod = "2019-01-09"
+lastmod = "2020-04-08"
 url = "/contact/"
 hidefromhome = "true"
 menu = "main"
