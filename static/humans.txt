@@ -42,7 +42,8 @@ Back End
 
   Hugo      - http://gohugo.io/
   Make      - https://www.gnu.org/software/make/
-  Atom      - https://atom.io/
+  neovim    - https://neovim.io/
+  VS Code   - https://code.visualstudio.com/
   GIMP      - https://www.gimp.org
   OptiPNG   - http://optipng.sourceforge.net
   Jpegoptim - http://www.kokkonen.net/tjko/projects.html

@@ -1,7 +1,7 @@
 +++
 title = "License"
 date = "2015-01-22"
-lastmod = "2019-01-09"
+lastmod = "2020-04-08"
 hidefromhome = "true"
 menu = "main"
 +++
@@ -21,7 +21,7 @@ If you wish to redistribute or otherwise use content beyond the terms of the lic
 ## The MIT License
 <a name="mit-license"></a>
 
-> Copyright 2019 Timothy Keith
+> Copyright 2020 Timothy Keith
 >  
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to

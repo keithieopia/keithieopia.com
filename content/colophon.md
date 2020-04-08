@@ -1,7 +1,7 @@
 +++
 title = "Colophon"
 date = "2017-02-23"
-lastmod = "2019-01-09"
+lastmod = "2020-04-08"
 url = "/colophon/"
 hidefromhome = "true"
 menu = "main"
@@ -16,4 +16,4 @@ The site is served by [lighttpd](http://www.lighttpd.net/) running on [Ubuntu Se
 Besides [Bootstrap](https://www.bootstrapcdn.com/) and [Font Awesome](https://fontawesome.com/)'s respective <abbr title="Content Delivery Networks">CDN  s</abbr>, [Cloudflare](https://www.cloudflare.com/) is used to speed up loading times. [StatusCake](https://www.statuscake.com/) monitors the site's performance and reports any downtime.
 
 This site has never implemented any form of advertising. If you see such, you may be infected with malware. For the curious, the total infrastructure
-cost (hosting, domain name, bandwidth, etc) is exactly $133.62 per year.
+cost (hosting, domain name, bandwidth, etc) is exactly $75.50 per year.
